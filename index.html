@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYNURBIC COMMUNITY</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <main>
+        <p>We are currently in a time when human demands on the Earth’s resources surpass its resilience by a significant margin. Half
+            of the global population resides in cities where our connection to nature is often unclear. Moving forward, human settlements
+            must harmoniously blend into the natural world rather than stand as isolated entities in competition with it. This means urban
+            and architectural design should incorporate flora and fauna as integral components alongside humans, taking into account
+            their needs and roles within the urban environment. As the division between our built environments and the natural world
+            blurs and shifts, architects must find new solutions to the physical boundary between us and the other residents of the earth.</p>
+        <img src="DETAIL2-01.png" alt="detail">
+    </main>
+    <div id="footer-placeholder"></div>
+    <script>
+        // Function to load external HTML content
+        function loadHTML(url, elementId) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(elementId).innerHTML = data;
+                })
+                .catch(error => console.error('Error loading HTML:', error));
+        }
+
+        // Load header and footer
+        loadHTML('header.html', 'header-placeholder');
+        loadHTML('footer.html', 'footer-placeholder');
+    </script>
+</body>
+</html>

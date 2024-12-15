@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1224 792">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Unnamed_Pattern-41);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49, .cls-50, .cls-51, .cls-52, .cls-53, .cls-54, .cls-55 {
+        stroke-miterlimit: 10;
+        stroke-width: .5px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-56, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49, .cls-50, .cls-51, .cls-52, .cls-53, .cls-55 {
+        stroke: #006838;
+      }
+
+      .cls-57, .cls-11, .cls-42, .cls-54 {
+        stroke: #39b54a;
+      }
+
+      .cls-57, .cls-56, .cls-58 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#Unnamed_Pattern-33);
+      }
+
+      .cls-3 {
+        fill: url(#Unnamed_Pattern-4);
+      }
+
+      .cls-4 {
+        fill: url(#Unnamed_Pattern-2);
+      }
+
+      .cls-5 {
+        fill: url(#Unnamed_Pattern-10);
+      }
+
+      .cls-6 {
+        fill: url(#Unnamed_Pattern-20);
+      }
+
+      .cls-7 {
+        fill: url(#Unnamed_Pattern-25);
+      }
+
+      .cls-8 {
+        fill: url(#Unnamed_Pattern-12);
+      }
+
+      .cls-9 {
+        fill: url(#Unnamed_Pattern-38);
+      }
+
+      .cls-10 {
+        fill: url(#Unnamed_Pattern);
+      }
+
+      .cls-11 {
+        fill: url(#_10_lpi_20_);
+      }
+
+      .cls-12 {
+        fill: url(#Unnamed_Pattern-23);
+      }
+
+      .cls-13 {
+        fill: url(#Unnamed_Pattern-5);
+      }
+
+      .cls-14 {
+        fill: url(#Unnamed_Pattern-49);
+      }
+
+      .cls-15 {
+        fill: url(#Unnamed_Pattern-43);
+      }
+
+      .cls-16 {
+        fill: url(#Unnamed_Pattern-42);
+      }
+
+      .cls-17 {
+        fill: url(#Unnamed_Pattern-19);
+      }
+
+      .cls-18 {
+        fill: url(#Unnamed_Pattern-30);
+      }
+
+      .cls-19 {
+        fill: url(#Unnamed_Pattern-7);
+      }
+
+      .cls-20 {
+        fill: url(#_10_lpi_20_3);
+      }
+
+      .cls-21 {
+        fill: url(#Unnamed_Pattern-3);
+      }
+
+      .cls-22 {
+        fill: url(#Unnamed_Pattern-46);
+      }
+
+      .cls-23 {
+        fill: url(#Unnamed_Pattern-39);
+      }
+
+      .cls-24 {
+        fill: url(#Unnamed_Pattern-11);
+      }
+
+      .cls-25 {
+        fill: url(#Unnamed_Pattern-22);
+      }
+
+      .cls-26 {
+        fill: url(#Unnamed_Pattern-32);
+      }
+
+      .cls-27 {
+        fill: url(#Unnamed_Pattern-26);
+      }
+
+      .cls-28 {
+        fill: url(#Unnamed_Pattern-45);
+      }
+
+      .cls-29 {
+        fill: url(#_10_lpi_20_3-2);
+      }
+
+      .cls-30 {
+        fill: url(#Unnamed_Pattern-37);
+      }
+
+      .cls-31 {
+        fill: url(#Unnamed_Pattern-50);
+      }
+
+      .cls-32 {
+        fill: url(#Unnamed_Pattern-8);
+      }
+
+      .cls-33 {
+        fill: url(#Unnamed_Pattern-18);
+      }
+
+      .cls-34 {
+        fill: url(#Unnamed_Pattern-40);
+      }
+
+      .cls-35 {
+        fill: url(#Unnamed_Pattern-17);
+      }
+
+      .cls-36 {
+        fill: url(#Unnamed_Pattern-21);
+      }
+
+      .cls-37 {
+        fill: url(#Unnamed_Pattern-36);
+      }
+
+      .cls-38 {
+        fill: url(#Unnamed_Pattern-15);
+      }
+
+      .cls-39 {
+        fill: url(#Unnamed_Pattern-44);
+      }
+
+      .cls-40 {
+        fill: url(#Unnamed_Pattern-47);
+      }
+
+      .cls-41 {
+        fill: url(#Unnamed_Pattern-28);
+      }
+
+      .cls-42 {
+        fill: url(#_10_lpi_20_2);
+      }
+
+      .cls-43 {
+        fill: url(#Unnamed_Pattern-13);
+      }
+
+      .cls-44 {
+        fill: url(#Unnamed_Pattern-16);
+      }
+
+      .cls-45 {
+        fill: url(#Unnamed_Pattern-29);
+      }
+
+      .cls-46 {
+        fill: url(#Unnamed_Pattern-6);
+      }
+
+      .cls-47 {
+        fill: url(#Unnamed_Pattern-27);
+      }
+
+      .cls-48 {
+        fill: url(#Unnamed_Pattern-48);
+      }
+
+      .cls-49 {
+        fill: url(#Unnamed_Pattern-35);
+      }
+
+      .cls-50 {
+        fill: url(#Unnamed_Pattern-31);
+      }
+
+      .cls-51 {
+        fill: url(#Unnamed_Pattern-24);
+      }
+
+      .cls-52 {
+        fill: url(#Unnamed_Pattern-14);
+      }
+
+      .cls-53 {
+        fill: url(#Unnamed_Pattern-34);
+      }
+
+      .cls-54 {
+        fill: url(#_10_lpi_20_-2);
+      }
+
+      .cls-55 {
+        fill: url(#Unnamed_Pattern-9);
+      }
+    </style>
+    <pattern id="_10_lpi_20_" data-name="10 lpi 20%" x="0" y="0" width="72" height="72" patternTransform="translate(11112.3 -3476.51) rotate(-.01) scale(2.47 .66) skewX(.04)" patternUnits="userSpaceOnUse" viewBox="0 0 72 72">
+      <g>
+        <rect class="cls-58" width="72" height="72"/>
+        <g>
+          <line class="cls-57" x1="71.75" y1="68.4" x2="144.25" y2="68.4"/>
+          <line class="cls-57" x1="71.75" y1="54" x2="144.25" y2="54"/>
+          <line class="cls-57" x1="71.75" y1="39.6" x2="144.25" y2="39.6"/>
+          <line class="cls-57" x1="71.75" y1="25.2" x2="144.25" y2="25.2"/>
+          <line class="cls-57" x1="71.75" y1="10.8" x2="144.25" y2="10.8"/>
+          <line class="cls-57" x1="71.75" y1="61.2" x2="144.25" y2="61.2"/>
+          <line class="cls-57" x1="71.75" y1="46.8" x2="144.25" y2="46.8"/>
+          <line class="cls-57" x1="71.75" y1="32.4" x2="144.25" y2="32.4"/>
+          <line class="cls-57" x1="71.75" y1="18" x2="144.25" y2="18"/>
+          <line class="cls-57" x1="71.75" y1="3.6" x2="144.25" y2="3.6"/>
+        </g>
+        <g>
+          <line class="cls-57" x1="-.25" y1="68.4" x2="72.25" y2="68.4"/>
+          <line class="cls-57" x1="-.25" y1="54" x2="72.25" y2="54"/>
+          <line class="cls-57" x1="-.25" y1="39.6" x2="72.25" y2="39.6"/>
+          <line class="cls-57" x1="-.25" y1="25.2" x2="72.25" y2="25.2"/>
+          <line class="cls-57" x1="-.25" y1="10.8" x2="72.25" y2="10.8"/>
+          <line class="cls-57" x1="-.25" y1="61.2" x2="72.25" y2="61.2"/>
+          <line class="cls-57" x1="-.25" y1="46.8" x2="72.25" y2="46.8"/>
+          <line class="cls-57" x1="-.25" y1="32.4" x2="72.25" y2="32.4"/>
+          <line class="cls-57" x1="-.25" y1="18" x2="72.25" y2="18"/>
+          <line class="cls-57" x1="-.25" y1="3.6" x2="72.25" y2="3.6"/>
+        </g>
+        <g>
+          <line class="cls-57" x1="-72.25" y1="68.4" x2=".25" y2="68.4"/>
+          <line class="cls-57" x1="-72.25" y1="54" x2=".25" y2="54"/>
+          <line class="cls-57" x1="-72.25" y1="39.6" x2=".25" y2="39.6"/>
+          <line class="cls-57" x1="-72.25" y1="25.2" x2=".25" y2="25.2"/>
+          <line class="cls-57" x1="-72.25" y1="10.8" x2=".25" y2="10.8"/>
+          <line class="cls-57" x1="-72.25" y1="61.2" x2=".25" y2="61.2"/>
+          <line class="cls-57" x1="-72.25" y1="46.8" x2=".25" y2="46.8"/>
+          <line class="cls-57" x1="-72.25" y1="32.4" x2=".25" y2="32.4"/>
+          <line class="cls-57" x1="-72.25" y1="18" x2=".25" y2="18"/>
+          <line class="cls-57" x1="-72.25" y1="3.6" x2=".25" y2="3.6"/>
+        </g>
+      </g>
+    </pattern>
+    <pattern id="_10_lpi_20_2" data-name="10 lpi 20% 2" x="0" y="0" width="72" height="72" patternTransform="translate(11112.3 -3476.51) rotate(-.01) scale(2.47 .66) skewX(.04)" patternUnits="userSpaceOnUse" viewBox="0 0 72 72">
+      <g>
+        <rect class="cls-58" width="72" height="72"/>
+        <g>
+          <line class="cls-57" x1="71.75" y1="68.4" x2="144.25" y2="68.4"/>
+          <line class="cls-57" x1="71.75" y1="54" x2="144.25" y2="54"/>
+          <line class="cls-57" x1="71.75" y1="39.6" x2="144.25" y2="39.6"/>
+          <line class="cls-57" x1="71.75" y1="25.2" x2="144.25" y2="25.2"/>
+          <line class="cls-57" x1="71.75" y1="10.8" x2="144.25" y2="10.8"/>
+          <line class="cls-57" x1="71.75" y1="61.2" x2="144.25" y2="61.2"/>
+          <line class="cls-57" x1="71.75" y1="46.8" x2="144.25" y2="46.8"/>
+          <line class="cls-57" x1="71.75" y1="32.4" x2="144.25" y2="32.4"/>
+          <line class="cls-57" x1="71.75" y1="18" x2="144.25" y2="18"/>
+          <line class="cls-57" x1="71.75" y1="3.6" x2="144.25" y2="3.6"/>
+        </g>
+        <g>
+          <line class="cls-57" x1="-.25" y1="68.4" x2="72.25" y2="68.4"/>
+          <line class="cls-57" x1="-.25" y1="54" x2="72.25" y2="54"/>
+          <line class="cls-57" x1="-.25" y1="39.6" x2="72.25" y2="39.6"/>
+          <line class="cls-57" x1="-.25" y1="25.2" x2="72.25" y2="25.2"/>
+          <line class="cls-57" x1="-.25" y1="10.8" x2="72.25" y2="10.8"/>
+          <line class="cls-57" x1="-.25" y1="61.2" x2="72.25" y2="61.2"/>
+          <line class="cls-57" x1="-.25" y1="46.8" x2="72.25" y2="46.8"/>
+          <line class="cls-57" x1="-.25" y1="32.4" x2="72.25" y2="32.4"/>
+          <line class="cls-57" x1="-.25" y1="18" x2="72.25" y2="18"/>
+          <line class="cls-57" x1="-.25" y1="3.6" x2="72.25" y2="3.6"/>
+        </g>
+        <g>
+          <line class="cls-57" x1="-72.25" y1="68.4" x2=".25" y2="68.4"/>
+          <line class="cls-57" x1="-72.25" y1="54" x2=".25" y2="54"/>
+          <line class="cls-57" x1="-72.25" y1="39.6" x2=".25" y2="39.6"/>
+          <line class="cls-57" x1="-72.25" y1="25.2" x2=".25" y2="25.2"/>
+          <line class="cls-57" x1="-72.25" y1="10.8" x2=".25" y2="10.8"/>
+          <line class="cls-57" x1="-72.25" y1="61.2" x2=".25" y2="61.2"/>
+          <line class="cls-57" x1="-72.25" y1="46.8" x2=".25" y2="46.8"/>
+          <line class="cls-57" x1="-72.25" y1="32.4" x2=".25" y2="32.4"/>
+          <line class="cls-57" x1="-72.25" y1="18" x2=".25" y2="18"/>
+          <line class="cls-57" x1="-72.25" y1="3.6" x2=".25" y2="3.6"/>
+        </g>
+      </g>
+    </pattern>
+    <pattern id="_10_lpi_20_-2" data-name="10 lpi 20%" patternTransform="translate(11088.98 -3423.04) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#_10_lpi_20_"/>
+    <pattern id="_10_lpi_20_3" data-name="10 lpi 20% 3" x="0" y="0" width="72" height="72" patternTransform="translate(11173.58 -3463.46) rotate(-.01) scale(2.47 .66) skewX(.04)" patternUnits="userSpaceOnUse" viewBox="0 0 72 72">
+      <g>
+        <rect class="cls-58" width="72" height="72"/>
+        <g>
+          <line class="cls-56" x1="71.75" y1="68.4" x2="144.25" y2="68.4"/>
+          <line class="cls-56" x1="71.75" y1="54" x2="144.25" y2="54"/>
+          <line class="cls-56" x1="71.75" y1="39.6" x2="144.25" y2="39.6"/>
+          <line class="cls-56" x1="71.75" y1="25.2" x2="144.25" y2="25.2"/>
+          <line class="cls-56" x1="71.75" y1="10.8" x2="144.25" y2="10.8"/>
+          <line class="cls-56" x1="71.75" y1="61.2" x2="144.25" y2="61.2"/>
+          <line class="cls-56" x1="71.75" y1="46.8" x2="144.25" y2="46.8"/>
+          <line class="cls-56" x1="71.75" y1="32.4" x2="144.25" y2="32.4"/>
+          <line class="cls-56" x1="71.75" y1="18" x2="144.25" y2="18"/>
+          <line class="cls-56" x1="71.75" y1="3.6" x2="144.25" y2="3.6"/>
+        </g>
+        <g>
+          <line class="cls-56" x1="-.25" y1="68.4" x2="72.25" y2="68.4"/>
+          <line class="cls-56" x1="-.25" y1="54" x2="72.25" y2="54"/>
+          <line class="cls-56" x1="-.25" y1="39.6" x2="72.25" y2="39.6"/>
+          <line class="cls-56" x1="-.25" y1="25.2" x2="72.25" y2="25.2"/>
+          <line class="cls-56" x1="-.25" y1="10.8" x2="72.25" y2="10.8"/>
+          <line class="cls-56" x1="-.25" y1="61.2" x2="72.25" y2="61.2"/>
+          <line class="cls-56" x1="-.25" y1="46.8" x2="72.25" y2="46.8"/>
+          <line class="cls-56" x1="-.25" y1="32.4" x2="72.25" y2="32.4"/>
+          <line class="cls-56" x1="-.25" y1="18" x2="72.25" y2="18"/>
+          <line class="cls-56" x1="-.25" y1="3.6" x2="72.25" y2="3.6"/>
+        </g>
+        <g>
+          <line class="cls-56" x1="-72.25" y1="68.4" x2=".25" y2="68.4"/>
+          <line class="cls-56" x1="-72.25" y1="54" x2=".25" y2="54"/>
+          <line class="cls-56" x1="-72.25" y1="39.6" x2=".25" y2="39.6"/>
+          <line class="cls-56" x1="-72.25" y1="25.2" x2=".25" y2="25.2"/>
+          <line class="cls-56" x1="-72.25" y1="10.8" x2=".25" y2="10.8"/>
+          <line class="cls-56" x1="-72.25" y1="61.2" x2=".25" y2="61.2"/>
+          <line class="cls-56" x1="-72.25" y1="46.8" x2=".25" y2="46.8"/>
+          <line class="cls-56" x1="-72.25" y1="32.4" x2=".25" y2="32.4"/>
+          <line class="cls-56" x1="-72.25" y1="18" x2=".25" y2="18"/>
+          <line class="cls-56" x1="-72.25" y1="3.6" x2=".25" y2="3.6"/>
+        </g>
+      </g>
+    </pattern>
+    <pattern id="_10_lpi_20_3-2" data-name="10 lpi 20% 3" patternTransform="translate(11088.98 -3423.04) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#_10_lpi_20_3"/>
+    <pattern id="Unnamed_Pattern" data-name="Unnamed Pattern" x="0" y="0" width="72" height="72" patternTransform="translate(11088.98 -3423.04) rotate(-.01) scale(2.47 .66) skewX(.04)" patternUnits="userSpaceOnUse" viewBox="0 0 72 72">
+      <g>
+        <rect class="cls-58" width="72" height="72"/>
+        <g>
+          <line class="cls-56" x1="71.75" y1="68.4" x2="144.25" y2="68.4"/>
+          <line class="cls-56" x1="71.75" y1="54" x2="144.25" y2="54"/>
+          <line class="cls-56" x1="71.75" y1="39.6" x2="144.25" y2="39.6"/>
+          <line class="cls-56" x1="71.75" y1="25.2" x2="144.25" y2="25.2"/>
+          <line class="cls-56" x1="71.75" y1="10.8" x2="144.25" y2="10.8"/>
+          <line class="cls-56" x1="71.75" y1="61.2" x2="144.25" y2="61.2"/>
+          <line class="cls-56" x1="71.75" y1="46.8" x2="144.25" y2="46.8"/>
+          <line class="cls-56" x1="71.75" y1="32.4" x2="144.25" y2="32.4"/>
+          <line class="cls-56" x1="71.75" y1="18" x2="144.25" y2="18"/>
+          <line class="cls-56" x1="71.75" y1="3.6" x2="144.25" y2="3.6"/>
+        </g>
+        <g>
+          <line class="cls-56" x1="-.25" y1="68.4" x2="72.25" y2="68.4"/>
+          <line class="cls-56" x1="-.25" y1="54" x2="72.25" y2="54"/>
+          <line class="cls-56" x1="-.25" y1="39.6" x2="72.25" y2="39.6"/>
+          <line class="cls-56" x1="-.25" y1="25.2" x2="72.25" y2="25.2"/>
+          <line class="cls-56" x1="-.25" y1="10.8" x2="72.25" y2="10.8"/>
+          <line class="cls-56" x1="-.25" y1="61.2" x2="72.25" y2="61.2"/>
+          <line class="cls-56" x1="-.25" y1="46.8" x2="72.25" y2="46.8"/>
+          <line class="cls-56" x1="-.25" y1="32.4" x2="72.25" y2="32.4"/>
+          <line class="cls-56" x1="-.25" y1="18" x2="72.25" y2="18"/>
+          <line class="cls-56" x1="-.25" y1="3.6" x2="72.25" y2="3.6"/>
+        </g>
+        <g>
+          <line class="cls-56" x1="-72.25" y1="68.4" x2=".25" y2="68.4"/>
+          <line class="cls-56" x1="-72.25" y1="54" x2=".25" y2="54"/>
+          <line class="cls-56" x1="-72.25" y1="39.6" x2=".25" y2="39.6"/>
+          <line class="cls-56" x1="-72.25" y1="25.2" x2=".25" y2="25.2"/>
+          <line class="cls-56" x1="-72.25" y1="10.8" x2=".25" y2="10.8"/>
+          <line class="cls-56" x1="-72.25" y1="61.2" x2=".25" y2="61.2"/>
+          <line class="cls-56" x1="-72.25" y1="46.8" x2=".25" y2="46.8"/>
+          <line class="cls-56" x1="-72.25" y1="32.4" x2=".25" y2="32.4"/>
+          <line class="cls-56" x1="-72.25" y1="18" x2=".25" y2="18"/>
+          <line class="cls-56" x1="-72.25" y1="3.6" x2=".25" y2="3.6"/>
+        </g>
+      </g>
+    </pattern>
+    <pattern id="Unnamed_Pattern-2" data-name="Unnamed Pattern" patternTransform="translate(11131.81 -3341.29) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-3" data-name="Unnamed Pattern" patternTransform="translate(11131.54 -3348.86) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-4" data-name="Unnamed Pattern" patternTransform="translate(10957.82 -3365.82) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-5" data-name="Unnamed Pattern" patternTransform="translate(11232.04 -3362.12) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-6" data-name="Unnamed Pattern" patternTransform="translate(11290.98 -3359.97) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-7" data-name="Unnamed Pattern" patternTransform="translate(11080.85 -3375.08) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-8" data-name="Unnamed Pattern" patternTransform="translate(11379.03 -3373.21) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-9" data-name="Unnamed Pattern" patternTransform="translate(11390.95 -3333.37) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-10" data-name="Unnamed Pattern" patternTransform="translate(11420.89 -3324.32) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-11" data-name="Unnamed Pattern" patternTransform="translate(11479.83 -3322.74) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-12" data-name="Unnamed Pattern" patternTransform="translate(11404.43 -3326.37) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-13" data-name="Unnamed Pattern" patternTransform="translate(11488.24 -3269.69) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-14" data-name="Unnamed Pattern" patternTransform="translate(11507.38 -3277.44) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-15" data-name="Unnamed Pattern" patternTransform="translate(11522.65 -3286.18) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-16" data-name="Unnamed Pattern" patternTransform="translate(11537.97 -3302.05) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-17" data-name="Unnamed Pattern" patternTransform="translate(11507.38 -3314.2) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-18" data-name="Unnamed Pattern" patternTransform="translate(11587.12 -3315.12) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-19" data-name="Unnamed Pattern" patternTransform="translate(11527.3 -3261.08) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-20" data-name="Unnamed Pattern" patternTransform="translate(11562.28 -3262.99) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-21" data-name="Unnamed Pattern" patternTransform="translate(11557.06 -3327.29) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-22" data-name="Unnamed Pattern" patternTransform="translate(11621.34 -3307.84) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-23" data-name="Unnamed Pattern" patternTransform="translate(11632.23 -3287.74) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-24" data-name="Unnamed Pattern" patternTransform="translate(11635.42 -3352.41) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-25" data-name="Unnamed Pattern" patternTransform="translate(11703.51 -3333.91) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-26" data-name="Unnamed Pattern" patternTransform="translate(11627.72 -3309.75) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-27" data-name="Unnamed Pattern" patternTransform="translate(11508.13 -3336.52) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-28" data-name="Unnamed Pattern" patternTransform="translate(11520.24 -3353.65) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-29" data-name="Unnamed Pattern" patternTransform="translate(11525.11 -3380.05) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-30" data-name="Unnamed Pattern" patternTransform="translate(11593.99 -3420.15) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-31" data-name="Unnamed Pattern" patternTransform="translate(11621.05 -3428.96) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-32" data-name="Unnamed Pattern" patternTransform="translate(11654.14 -3433.94) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-33" data-name="Unnamed Pattern" patternTransform="translate(11684.09 -3480.92) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-34" data-name="Unnamed Pattern" patternTransform="translate(11648.5 -3498.7) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-35" data-name="Unnamed Pattern" patternTransform="translate(11605.59 -3256.16) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-36" data-name="Unnamed Pattern" patternTransform="translate(11490.79 -3264.56) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-37" data-name="Unnamed Pattern" patternTransform="translate(11447.59 -3289.1) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-38" data-name="Unnamed Pattern" patternTransform="translate(11441.7 -3260.61) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-39" data-name="Unnamed Pattern" patternTransform="translate(11466.13 -3252.27) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-40" data-name="Unnamed Pattern" patternTransform="translate(11215.44 -3417.42) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-41" data-name="Unnamed Pattern" patternTransform="translate(11189.75 -3432.95) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-42" data-name="Unnamed Pattern" patternTransform="translate(11217.55 -3386.96) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-43" data-name="Unnamed Pattern" patternTransform="translate(11381.59 -3346.09) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-44" data-name="Unnamed Pattern" patternTransform="translate(11195.96 -3349.12) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-45" data-name="Unnamed Pattern" patternTransform="translate(11684.09 -3480.92) rotate(-.01) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-46" data-name="Unnamed Pattern" patternTransform="translate(-22488.61 4544.14) rotate(123.38) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-47" data-name="Unnamed Pattern" patternTransform="translate(-13730.73 10414.38) rotate(92.88) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-48" data-name="Unnamed Pattern" patternTransform="translate(-13721.62 10375.65) rotate(92.88) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-49" data-name="Unnamed Pattern" patternTransform="translate(-27089.89 -11000.47) rotate(171.67) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+    <pattern id="Unnamed_Pattern-50" data-name="Unnamed Pattern" patternTransform="translate(-27127.54 -11021.75) rotate(171.67) scale(2.47 .66) skewX(.04)" xlink:href="#Unnamed_Pattern"/>
+  </defs>
+  <g id="_58eastern_spring_beauty" data-name="58eastern spring beauty">
+    <circle id="_58eastern_spring_beauty-2" data-name="58eastern spring beauty" class="cls-11" cx="294.05" cy="586.62" r="49.82"/>
+  </g>
+  <g id="_57obedient_plant" data-name="57obedient plant">
+    <path id="_57obedient_plant-2" data-name="57obedient plant" class="cls-11" d="m1098.64,756.62s-1.64-29.58-2.05-29.57-34.5.55-34.5.55l1.5,29.03"/>
+  </g>
+  <g id="_56obedient_plant" data-name="56obedient plant">
+    <polyline id="_56obedient_plant-2" data-name="56obedient plant" class="cls-42" points="760.93 756.35 758.35 717.58 791.76 715.32 789.16 681.55 756.05 684.23 751.33 617.42 717.16 620.27 724.52 720.64 691.9 722.89 693.5 756.62"/>
+  </g>
+  <g id="_55obedient_plant" data-name="55obedient plant">
+    <polygon id="_55obedient_plant-2" data-name="55obedient plant" class="cls-11" points="917.82 604.66 905.24 436.57 871.74 438.07 869.34 405.23 801.77 410.68 804.57 444.17 771.41 446.75 774.02 479.73 807.11 477.84 804.81 443.78 872.23 438.26 876.3 506.58 776.27 513.91 784.05 614.17 817.28 612.12 819.74 646.23 887.48 640.73 889.34 673.69 923.34 671.9 920.99 637.8 887.4 640.47 884.53 607.37 917.82 604.66"/>
+  </g>
+  <g id="_54virginia_chain_fern" data-name="54virginia chain fern">
+    <polygon id="_54virginia_chain_fern-2" data-name="54virginia chain fern" class="cls-11" points="411.7 169.86 409.45 135.85 376.24 138.9 378.2 172.29 411.7 169.86"/>
+  </g>
+  <g id="_53eastern_spring_beauty" data-name="53eastern spring beauty">
+    <polygon id="_53eastern_spring_beauty-2" data-name="53eastern spring beauty" class="cls-54" points="389.88 747.06 387.62 713.05 354.41 716.1 356.37 749.49 389.88 747.06"/>
+  </g>
+  <g id="_52bank_swallow" data-name="52bank swallow">
+    <polygon id="_52bank_swallow-2" data-name="52bank swallow" class="cls-20" points="652.32 658.99 650.07 624.98 616.86 628.03 618.82 661.42 652.32 658.99"/>
+  </g>
+  <g id="_51least_bittern" data-name="51least bittern">
+    <path id="_51least_bittern-2" data-name="51least bittern" class="cls-29" d="m226.86,387.53l2.37,33.65-33.6,3.13,7.7,100.54s101.15-8.78,100.84-8.78-5.14-66.87-5.14-66.87l33.9-2.8-2.79-33.2-34.36,2.25-2.35-33.65-66.58,5.72Z"/>
+  </g>
+  <g id="_50least_bittern" data-name="50least bittern">
+    <polygon id="_50least_bittern-2" data-name="50least bittern" class="cls-10" points="889.99 235.06 893.09 267.61 791.74 275.78 787.11 208.74 820.05 206.36 822.5 239.3 889.99 235.06"/>
+  </g>
+  <g id="_49bank_swallow" data-name="49bank swallow">
+    <path id="_49bank_swallow-2" data-name="49bank swallow" class="cls-4" d="m345.13,756.61c-2.59-6.1-4.02-12.81-4.02-19.86,0-28.07,22.76-50.83,50.83-50.83s50.83,22.76,50.83,50.83c0,7-1.41,13.66-3.97,19.73"/>
+  </g>
+  <g id="_48southern_flying_squirrel" data-name="48southern flying squirrel">
+    <circle id="_48southern_flying_squirrel-2" data-name="48southern flying squirrel" class="cls-21" cx="430.89" cy="565.74" r="7.57"/>
+  </g>
+  <g id="_47four-toed_salamander" data-name="47four-toed salamander">
+    <circle id="_47four-toed_salamander-2" data-name="47four-toed salamander" class="cls-3" cx="257.16" cy="548.78" r="7.57"/>
+  </g>
+  <g id="_46southern_flying_squirrel" data-name="46southern flying squirrel">
+    <circle id="_46southern_flying_squirrel-2" data-name="46southern flying squirrel" class="cls-13" cx="531.38" cy="552.48" r="7.57"/>
+  </g>
+  <g id="_45northern_collar_snake" data-name="45northern collar snake">
+    <circle id="_45northern_collar_snake-2" data-name="45northern collar snake" class="cls-46" cx="590.33" cy="554.63" r="7.57"/>
+  </g>
+  <g id="_44four-toed_salamander" data-name="44four-toed salamander">
+    <circle id="_44four-toed_salamander-2" data-name="44four-toed salamander" class="cls-19" cx="201.67" cy="349.11" r="7.57"/>
+  </g>
+  <g id="_43smooth_green_snake" data-name="43smooth green snake">
+    <circle id="_43smooth_green_snake-2" data-name="43smooth green snake" class="cls-32" cx="677.42" cy="208.11" r="7.57"/>
+  </g>
+  <g id="_42smooth_green_snake" data-name="42smooth green snake">
+    <path id="_42smooth_green_snake-2" data-name="42smooth green snake" class="cls-55" d="m689.62,240.39c.95-1.27,1.52-2.83,1.52-4.54,0-4.18-3.39-7.57-7.57-7.57s-7.57,3.39-7.57,7.57,3.25,7.42,7.3,7.56c-.95,1.27-1.52,2.83-1.52,4.54,0,4.18,3.39,7.57,7.57,7.57s7.57-3.39,7.57-7.57-3.25-7.42-7.3-7.56Z"/>
+  </g>
+  <g id="_41four-toed_salamander" data-name="41four-toed salamander">
+    <path id="_41four-toed_salamander-2" data-name="41four-toed salamander" class="cls-5" d="m909.34,344.01c0-4.18-3.39-7.57-7.57-7.57s-7.57,3.39-7.57,7.57c0,.46.05.9.12,1.34-2.57,1.21-4.35,3.82-4.35,6.84,0,4.18,3.39,7.57,7.57,7.57s7.57-3.39,7.57-7.57c0-.46-.05-.9-.12-1.34,2.57-1.21,4.35-3.82,4.35-6.84Z"/>
+  </g>
+  <g id="_40four-toed_salamander" data-name="40four-toed salamander">
+    <circle id="_40four-toed_salamander-2" data-name="40four-toed salamander" class="cls-24" cx="956.76" cy="448.98" r="7.57"/>
+  </g>
+  <g id="_39smooth_green_snake" data-name="39smooth green snake">
+    <circle id="_39smooth_green_snake-2" data-name="39smooth green snake" class="cls-8" cx="881.36" cy="445.36" r="7.57"/>
+  </g>
+  <g id="_38four-toed_salamander" data-name="38four-toed salamander">
+    <path id="_38four-toed_salamander-2" data-name="38four-toed salamander" class="cls-43" d="m965.84,732.52c-4.18,0-7.57,3.39-7.57,7.57,0,.29.02.57.05.85-.91-2.13-2.77-3.74-5.04-4.34,1.76-1.39,2.89-3.53,2.89-5.94,0-4.18-3.39-7.57-7.57-7.57-1.11,0-2.15.24-3.1.67-1.12-.66-2.43-1.04-3.82-1.04-4.18,0-7.57,3.39-7.57,7.57,0,1.34.35,2.6.96,3.69-.35.87-.55,1.82-.55,2.82,0,4.18,3.39,7.57,7.57,7.57.59,0,1.16-.07,1.71-.2.13,4.07,3.46,7.32,7.56,7.32s7.57-3.39,7.57-7.57c0-.29-.02-.57-.05-.85,1.16,2.7,3.84,4.6,6.96,4.6,4.18,0,7.57-3.39,7.57-7.57s-3.39-7.57-7.57-7.57Z"/>
+  </g>
+  <g id="_37four-toed_salamander" data-name="37four-toed salamander">
+    <circle id="_37four-toed_salamander-2" data-name="37four-toed salamander" class="cls-52" cx="984.99" cy="732.35" r="7.57"/>
+  </g>
+  <g id="_36four-toed_salamander" data-name="36four-toed salamander">
+    <circle id="_36four-toed_salamander-2" data-name="36four-toed salamander" class="cls-38" cx="1000.25" cy="723.61" r="7.57"/>
+  </g>
+  <g id="_35four-toed_salamander" data-name="35four-toed salamander">
+    <circle id="_35four-toed_salamander-2" data-name="35four-toed salamander" class="cls-44" cx="1015.58" cy="707.73" r="7.57"/>
+  </g>
+  <g id="_34four-toed_salamander" data-name="34four-toed salamander">
+    <circle id="_34four-toed_salamander-2" data-name="34four-toed salamander" class="cls-35" cx="984.99" cy="695.58" r="7.57"/>
+  </g>
+  <g id="_33four-toed_salamander" data-name="33four-toed salamander">
+    <path id="_33four-toed_salamander-2" data-name="33four-toed salamander" class="cls-33" d="m1082.58,682.5c-1.08,0-2.1.23-3.03.64-.94-3.12-3.83-5.39-7.25-5.39-1.86,0-3.56.67-4.88,1.79-1.39-1.69-3.5-2.78-5.86-2.78-4.18,0-7.57,3.39-7.57,7.57,0,.88.16,1.72.43,2.51-.14,0-.29-.02-.43-.02-4.18,0-7.57,3.39-7.57,7.57s3.39,7.57,7.57,7.57c2.03,0,3.87-.8,5.23-2.11,1.38,1.47,3.34,2.39,5.51,2.39,4.18,0,7.57-3.39,7.57-7.57,0-.62-.08-1.22-.22-1.79.07,0,.15.01.22.01,1.08,0,2.1-.23,3.03-.64.94,3.12,3.83,5.39,7.25,5.39,4.18,0,7.57-3.39,7.57-7.57s-3.39-7.57-7.57-7.57Z"/>
+  </g>
+  <g id="_32northern_collar_snake" data-name="32northern collar snake">
+    <circle id="_32northern_collar_snake-2" data-name="32northern collar snake" class="cls-17" cx="1004.91" cy="748.71" r="7.57"/>
+  </g>
+  <g id="_31northern_collar_snake" data-name="31northern collar snake">
+    <path id="_31northern_collar_snake-2" data-name="31northern collar snake" class="cls-6" d="m1046.53,756.62c.31-.58.54-1.2.69-1.86.81.29,1.67.46,2.58.46,4.18,0,7.57-3.39,7.57-7.57,0-.84-.14-1.64-.39-2.4.06,0,.11,0,.17,0,4.18,0,7.57-3.39,7.57-7.57s-3.39-7.57-7.57-7.57c-1.37,0-2.66.37-3.77,1.01-1.39-1.77-3.54-2.92-5.96-2.92-2.17,0-4.12.92-5.5,2.38-1.38-1.46-3.33-2.38-5.5-2.38-3.95,0-7.19,3.02-7.54,6.88-.81-.29-1.67-.46-2.58-.46-4.18,0-7.57,3.39-7.57,7.57,0,2.37,1.09,4.49,2.8,5.88-.12.55-.2,1.11-.2,1.7,0,3.02,1.77,5.63,4.33,6.84"/>
+  </g>
+  <g id="_30four-toed_salamander" data-name="30four-toed salamander">
+    <circle id="_30four-toed_salamander-2" data-name="30four-toed salamander" class="cls-36" cx="1034.67" cy="682.5" r="7.57"/>
+  </g>
+  <g id="_29northern_collar_snake" data-name="29northern collar snake">
+    <circle id="_29northern_collar_snake-2" data-name="29northern collar snake" class="cls-25" cx="1098.95" cy="701.95" r="7.57"/>
+  </g>
+  <g id="_28northern_collar_snake" data-name="28northern collar snake">
+    <circle id="_28northern_collar_snake-2" data-name="28northern collar snake" class="cls-12" cx="1109.83" cy="722.04" r="7.57"/>
+  </g>
+  <g id="_27four-toed_salamander" data-name="27four-toed salamander">
+    <circle id="_27four-toed_salamander-2" data-name="27four-toed salamander" class="cls-51" cx="1113.03" cy="657.38" r="7.57"/>
+  </g>
+  <g id="_26four-toed_salamander" data-name="26four-toed salamander">
+    <circle id="_26four-toed_salamander-2" data-name="26four-toed salamander" class="cls-7" cx="1181.11" cy="675.87" r="7.57"/>
+  </g>
+  <g id="_25northern_collar_snake" data-name="25northern collar snake">
+    <circle id="_25northern_collar_snake-2" data-name="25northern collar snake" class="cls-27" cx="1105.46" cy="747.65" r="7.57"/>
+  </g>
+  <g id="_24four-toed_salamander" data-name="24four-toed salamander">
+    <circle id="_24four-toed_salamander-2" data-name="24four-toed salamander" class="cls-47" cx="985.06" cy="435.21" r="7.57"/>
+  </g>
+  <g id="_23four-toed_salamander" data-name="23four-toed salamander">
+    <circle id="_23four-toed_salamander-2" data-name="23four-toed salamander" class="cls-41" cx="997.16" cy="418.08" r="7.57"/>
+  </g>
+  <g id="_22smooth_green_snake" data-name="22smooth green snake">
+    <circle id="_22smooth_green_snake-2" data-name="22smooth green snake" class="cls-45" cx="1002.04" cy="391.68" r="7.57"/>
+  </g>
+  <g id="_21four-toed_salamander" data-name="21four-toed salamander">
+    <circle id="_21four-toed_salamander-2" data-name="21four-toed salamander" class="cls-18" cx="1070.92" cy="351.58" r="7.57"/>
+  </g>
+  <g id="_20four-toed_salamander" data-name="20four-toed salamander">
+    <circle id="_20four-toed_salamander-2" data-name="20four-toed salamander" class="cls-50" cx="1097.98" cy="342.77" r="7.57"/>
+  </g>
+  <g id="_19four-toed_salamander" data-name="19four-toed salamander">
+    <circle id="_19four-toed_salamander-2" data-name="19four-toed salamander" class="cls-26" cx="1131.06" cy="337.79" r="7.57"/>
+  </g>
+  <g id="_18four-toed_salamander" data-name="18four-toed salamander">
+    <circle id="_18four-toed_salamander-2" data-name="18four-toed salamander" class="cls-2" cx="1161.01" cy="290.81" r="7.57"/>
+  </g>
+  <g id="_17four-toed_salamander" data-name="17four-toed salamander">
+    <path id="_17four-toed_salamander-2" data-name="17four-toed salamander" class="cls-53" d="m1130.74,278.41c1.39-1.37,2.25-3.28,2.25-5.39,0-4.18-3.39-7.57-7.57-7.57-.08,0-.15,0-.23.01.15-.59.23-1.2.23-1.83,0-4.18-3.39-7.57-7.57-7.57s-7.57,3.39-7.57,7.57c0,.63.09,1.24.23,1.83-.08,0-.15-.01-.23-.01-4.18,0-7.57,3.39-7.57,7.57s3.39,7.57,7.57,7.57c.02,0,.04,0,.06,0-.04.31-.06.62-.06.94,0,4.18,3.39,7.57,7.57,7.57.81,0,1.58-.13,2.31-.36,1.34,2.13,3.71,3.56,6.41,3.56,4.18,0,7.57-3.39,7.57-7.57,0-2.64-1.35-4.96-3.4-6.32Zm-12.95-4.44c.04-.31.06-.62.06-.94,0-.63-.09-1.24-.23-1.83.08,0,.15.01.23.01s.15,0,.23-.01c-.15.59-.23,1.2-.23,1.83,0,.32.03.63.06.94-.02,0-.04,0-.06,0s-.04,0-.06,0Z"/>
+  </g>
+  <g id="_16least_bittern" data-name="16least bittern">
+    <circle id="_16least_bittern-2" data-name="16least bittern" class="cls-49" cx="1114.51" cy="700.16" r="48.52"/>
+  </g>
+  <g id="_15smooth_green_snake" data-name="15smooth green snake">
+    <circle id="_15smooth_green_snake-2" data-name="15smooth green snake" class="cls-37" cx="918.26" cy="513.73" r="20.53"/>
+  </g>
+  <g id="_14four-toed_salamander" data-name="14four-toed salamander">
+    <circle id="_14four-toed_salamander-2" data-name="14four-toed salamander" class="cls-30" cx="875.06" cy="489.19" r="20.53"/>
+  </g>
+  <g id="_13bank_swallow" data-name="13bank swallow">
+    <path id="_13bank_swallow-2" data-name="13bank swallow" class="cls-9" d="m315.37,756.62c0-.26-.01-.51-.01-.77,0-11.34,9.19-20.53,20.53-20.53s20.53,9.19,20.53,20.53c0,.26,0,.53-.01.79"/>
+  </g>
+  <g id="_12smooth_green_snake" data-name="12smooth green snake">
+    <circle id="_12smooth_green_snake-2" data-name="12smooth green snake" class="cls-23" cx="893.6" cy="526.01" r="20.53"/>
+  </g>
+  <g id="_11smooth_green_snake" data-name="11smooth green snake">
+    <circle id="_11smooth_green_snake-2" data-name="11smooth green snake" class="cls-34" cx="514.25" cy="306.74" r="7.57"/>
+  </g>
+  <g id="_10smooth_green_snake" data-name="10smooth green snake">
+    <circle id="_10smooth_green_snake-2" data-name="10smooth green snake" class="cls-1" cx="488.28" cy="195.98" r="7.57"/>
+  </g>
+  <g id="_09northern_collar_snake" data-name="09northern collar snake">
+    <circle id="_09northern_collar_snake-2" data-name="09northern collar snake" class="cls-16" cx="516.36" cy="337.2" r="7.57"/>
+  </g>
+  <g id="_08northern_collar_snake" data-name="08northern collar snake">
+    <circle id="_08northern_collar_snake-2" data-name="08northern collar snake" class="cls-15" cx="680.4" cy="378.06" r="7.57"/>
+  </g>
+  <g id="_07smooth_green_snake" data-name="07smooth green snake">
+    <path id="_07smooth_green_snake-2" data-name="07smooth green snake" class="cls-39" d="m504.93,363.57c0-4.18-3.39-7.57-7.57-7.57s-7.57,3.39-7.57,7.57c0,1.77.61,3.39,1.63,4.68-2.5,1.24-4.23,3.81-4.23,6.78,0,4.18,3.39,7.57,7.57,7.57s7.57-3.39,7.57-7.57c0-1.77-.61-3.39-1.63-4.68,2.5-1.24,4.23-3.81,4.23-6.78Z"/>
+  </g>
+  <g id="_06yellow_bullhead" data-name="06yellow bullhead">
+    <path id="_06yellow_bullhead-2" data-name="06yellow bullhead" class="cls-28" d="m645.56,483.34c-2.87-7.03-6.28-11.57-4.23-16.57,1.71-4.17,6.73-7.49,9.27-6.27,4.78,2.28-4.68,17.93,3,31.64,4.12,7.36,10.14,8.73,9.82,14.18-.34,5.6-7.11,11.33-10.91,10.09-5.16-1.68.64-14.44-6.95-33.06Z"/>
+  </g>
+  <g id="_05yellow_bullhead" data-name="05yellow bullhead">
+    <path id="_05yellow_bullhead-2" data-name="05yellow bullhead" class="cls-22" d="m654.67,544.83c7.45,1.48,7.45-22.7,16.36-27.15,4.03-2.01-4.18,31.89-6.43,33.6-2.09,1.58-5.95,1.42-11.17-.11-8.1-2.38-16.45-4.81-20.82-8.08-4.49-3.36-5.54-12.17-2.42-14.66,4.24-3.38,4.76,12.49,24.49,16.4Z"/>
+  </g>
+  <g id="_04channel_darter" data-name="04channel darter">
+    <path id="_04channel_darter-2" data-name="04channel darter" class="cls-40" d="m1024.78,233.03c7.17-2.51,21.58-14.42,34.77-14.75,16.72-.42,68.67-3.74,68.36,10.19-.12,5.3-54.27-3.12-68.35,3.86-7.56,3.75-53.19,17.98-58.62,17.38-5.57-.62-10.95-7.67-9.53-11.4,1.94-5.07,14.39,1.37,33.37-5.28Z"/>
+  </g>
+  <g id="_03channel_darter" data-name="03channel darter">
+    <path id="_03channel_darter-2" data-name="03channel darter" class="cls-48" d="m1188.09,208.59c-15.08,4.76-32.18,9.54-35.37,9.18-5.57-.62-10.95-7.67-9.53-11.4,1.94-5.07,14.39,1.37,33.37-5.28,2.83-.99,6.77-3.44,11.33-6.06"/>
+  </g>
+  <g id="_02stonecat" data-name="02stonecat">
+    <path id="_02stonecat-2" data-name="02stonecat" class="cls-14" d="m516.05,248.27c3.86,6.55,7.89,10.53,6.58,15.78-1.09,4.37-5.57,8.38-8.27,7.55-5.06-1.57,2.03-18.42-7.55-30.87-5.15-6.69-4.82-7.06-7.85-11.6-3.37-5.04-9.25-21.89-5.31-21.21,5.35.92,12.19,23.02,22.39,40.35Z"/>
+  </g>
+  <g id="_01channel_darter" data-name="01channel darter">
+    <path id="_01channel_darter-2" data-name="01channel darter" class="cls-31" d="m473.19,101.51c3.86,6.55-1.93,35.14-1.94,40.56-.01,5.43-6,1.64-7.89-.78-3.26-4.18,1.35-3.57-8.23-16.02-5.15-6.69-4.82-7.06-7.85-11.6-3.37-5.04-10.81-15.41-7.34-17.38,3.77-2.14,23.05-12.1,33.25,5.23Z"/>
+  </g>
+</svg>
