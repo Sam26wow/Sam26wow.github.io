@@ -23,33 +23,33 @@
             height: 50px;
             margin-right: 10px;
         }
-        nav {
-            display: flex;
-            gap: 15px;
-        }
-        nav a {
-            text-decoration: none;
+        .logo-title .title-button {
+            font-family: 'Arya', sans-serif;
+            font-size: 24px;
+            font-weight: bold;
             color: white;
-            background-color: #333;
-            padding: 10px 15px;
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 2px solid white;
             border-radius: 5px;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
-        nav a:hover {
-            background-color: #555;
+        .logo-title .title-button:hover {
+            background-color: white;
+            color: #222;
         }
     </style>
 </head>
 <body>
     <header>
         <div class="logo-title">
-            <img src="DETAIL2-01.png" alt="Site Logo">
+            <img src="assets/images/logo.png" alt="Site Logo">
             <a href="index.html" class="title-button"><b>OBJECT AS ORGANISM</b></a>
         </div>
         <nav>
-            <a href="resources.html">RESOURCES</a>
-            <a href="about.html">VISION</a>
-            <a href="tool.html">INTERACTIVE TOOL</a>
+            <a href="resources.html" class="title-button">RESOURCES</a>
+            <a href="about.html" class="title-button">VISION</a>
+            <a href="tool.html" class="title-button">INTERACTIVE TOOL</a>
         </nav>
     </header>
 </body>
