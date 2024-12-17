@@ -2,30 +2,99 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SYNURBIC COMMUNITY</title>
 <style>
-    /* Basic styling */
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-image: url('assets/images/coverpage-02.png');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between buttons as needed */
+    margin-top: 150px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.button-container button {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container button:hover {
+    transform: scale(1.1);
+}
+
+.button-container a {
+    text-decoration: none;
+}
+
+.button-text {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    height: 60px; /* Set a fixed height to prevent movement */
+}
+
+.button-container button img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
 </style>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="header-placeholder"></div>
     <main>
-        
-        <!-- <p>We are currently in a time when human demands on the Earth’s resources surpass its resilience by a significant margin. Half
-            of the global population resides in cities where our connection to nature is often unclear. Moving forward, human settlements
-            must harmoniously blend into the natural world rather than stand as isolated entities in competition with it. This means urban
-            and architectural design should incorporate flora and fauna as integral components alongside humans, taking into account
-            their needs and roles within the urban environment. As the division between our built environments and the natural world
-            blurs and shifts, architects must find new solutions to the physical boundary between us and the other residents of the earth.</p>
-        <img src="DETAIL2-01.png" alt="detail"> -->
+       <div class="button-wrapper">
+            <div class="button-container">
+                <button>
+                    Databanks
+                    <br>
+                    <img src="assets/images/databank-03.png" alt="Databanks">
+                </button>
+                <div class="button-text">Online repository of environmental data linked to specific architectural typologies and synurbic strategies for ecosystem integration.</div>
+            </div>
+            <div class="button-container">
+                <a href="tool.html"><button>
+                    Interactive tool
+                    <br>
+                    <img src="assets/images/interactive tool-03.png" alt="Interactive tool">
+                </button></a>
+                <div class="button-text">Site locator and project designer. Allows user to see the ecosystem integration strategies specific to their site and program.</div>
+            </div>
+            <div class="button-container">
+                <button>
+                    Impact Calculator
+                    <br>
+                    <img src="assets/images/calculator-03.png" alt="Impact Calculator">
+                </button>
+                <div class="button-text">Calculate your project's environmental impact and the amount of ecosystem functions your project needs to replace.</div>
+            </div>
+        </div>
     </main>
     <div id="footer-placeholder"></div>
     <script>
