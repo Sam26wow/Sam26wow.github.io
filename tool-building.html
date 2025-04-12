@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBJECT AS ORGANISM</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style/toolbuilding.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <main>
+        <div id="map">
+            <div id="map-button">
+                <img src="assets/images/arrow.png" alt="Arrow Button" />
+            </div>
+        </div>
+         <div id="sidebar">
+            <span id="close-sidebar">X</span>
+            <h2 id="sidebar-title"></h2>
+            <img id="sidebar-image" src="" alt="Sidebar Image" style="width: 100%; height: auto;">
+            <h3 id="sidebar-scale"></h3>
+            <h3 id="sidebar-ecosystem-function"></h3>
+            <p id="sidebar-description"></p>
+            <p id="sidebar-function-replacement"></p>
+            <h2 id="sidebar-source-project"></h2>
+            <img id="sidebar-projectImage1" src="" alt="Projet image 1" style="width: 100%; height: auto;">
+            <img id="sidebar-projectImage2" src="" alt="Projet image 2" style="width: 100%; height: auto;">
+            <p id="sidebar-project-description"></p>
+            <p id="sidebar-project-url"></p>
+        </div>
+    </main>
+    <div id="footer-placeholder"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+
+        // Function to load external HTML content
+        function loadHTML(url, elementId) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(elementId).innerHTML = data;
+                })
+                .catch(error => console.error('Error loading HTML:', error));
+        }
+
+        // Load header and footer
+        loadHTML('header.html', 'header-placeholder');
+        loadHTML('footer.html', 'footer-placeholder');
+
+
+        fetch('data/dataBuilding.json')
+        .then(response => response.json())
+        .then(data => {
+                const locations = data.data;
+
+                        // Initialize the map
+                const map = L.map('map').setView([57.984808, 140.976563], 3); // Adjust the center and zoom level as needed
+                
+                // Add the image overlay
+                const imageUrl = 'assets/images/ne.png'; // Path to your image
+
+                // Adjust the bounds to make the image larger
+               const imageBounds = [[0, 0], [300, 300]]; // Matches the gray area's dimensions
+
+                L.imageOverlay(imageUrl, imageBounds).addTo(map);
+
+                // Fit the map to the new image bounds
+
+                //map.on('click', function(e) {
+                //  alert("You clicked the map at " + e.latlng);
+                //});
+
+                locations.forEach(location => {
+                    const { latitude, longitude, isPolygon } = location.locationCenter;
+                    const { name, description, imageDescription, urlDescription, polygonCoords } = location;
+
+                   const polygon = L.polygon(polygonCoords, {
+                        color: 'transparent', // No border color
+                        fillColor: 'transparent', // No fill color
+                        fillOpacity: 0 // Fully transparent fill
+                    }).addTo(map);
+
+                    polygon.on('click', () => {
+                        showSidebar(location.sidebar);
+                    });
+                });
+            })
+            .catch(error => {
+                console.error('fetch error', error);
+            });
+
+        function showSidebar(sidebar) {
+            const { title, image, description, scale, ecosystemFunction, functionReplacement, sourceProject, projectDescription, projectImage1, projectImage2, projectUrlDescription } = sidebar;
+            document.getElementById('sidebar-title').innerHTML = title;
+            document.getElementById('sidebar-image').src = image;
+            document.getElementById('sidebar-description').innerHTML = description;
+            document.getElementById('sidebar-scale').innerHTML = scale;
+            document.getElementById('sidebar-ecosystem-function').innerHTML = ecosystemFunction;
+            document.getElementById('sidebar-function-replacement').innerHTML = functionReplacement;
+            document.getElementById('sidebar-source-project').innerHTML = sourceProject;
+            document.getElementById('sidebar-project-description').innerHTML = projectDescription;
+            document.getElementById('sidebar-projectImage1').src = projectImage1;
+            document.getElementById('sidebar-projectImage2').src = projectImage2;
+            document.getElementById('sidebar-project-url').innerHTML = `<a href="${projectUrlDescription}" target="_blank">More Information</a>`;
+            document.getElementById('sidebar').style.display = 'block';
+        }
+
+        document.getElementById('close-sidebar').addEventListener('click', () => {
+            document.getElementById('sidebar').style.display = 'none';
+            document.getElementById('map').style.width = '100%';
+        });
+
+         document.getElementById('map-button').addEventListener('click', () => {
+            window.location.href = 'tool-building2.html'; // Redirect to tool-building.html
+        });
+    </script>
+</body>
+</html>

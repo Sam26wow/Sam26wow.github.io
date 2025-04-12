@@ -1,0 +1,70 @@
+main {
+    display: contents;
+    width: 100%;
+    height: 100%; /* Set the height to match the gray area */
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff; /* Ensure the background matches the gray area */
+    position: relative; /* Set relative positioning for the map container */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+#map-button {
+    position: absolute;
+    top: 100px; /* Adjust the distance from the top */
+    left: 100px; /* Adjust the distance from the left */
+    z-index: 1000; /* Ensure it stays on top of the map */
+    cursor: pointer;
+}
+
+#map-button img {
+    width: 70px; /* Adjust the size of the button */
+    height: 70px;
+}
+
+#sidebar {
+    display: none; /* Hide the sidebar by default */
+    height: calc(100% - 60px); /* Adjust height to account for the header height */
+    width: 25%; /* Adjust the width as needed */
+    position: absolute; /* Position the sidebar relative to the map */
+    top: 60px; /* Ensure this matches the exact height of the header */
+    left: 0; /* Sidebar will appear on the left side of the map */
+    overflow-y: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Ensure the sidebar stays on top of the map */
+    text-align: left;
+}
+
+#sidebar h2 {
+    margin-top: 0;
+}
+
+#close-sidebar {
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000; /* Ensure it stays on top */
+    background-color: white; /* Add background color to make it visible */
+    padding: 5px; /* Add padding for better appearance */
+}
+
+.custom-tooltip {
+    background: none;
+    color: black;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    max-width: 100px; /* Set a maximum width */
+    white-space: normal; /* Enable word wrapping */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+    padding: 2px; /* Add some padding */
+}
+
