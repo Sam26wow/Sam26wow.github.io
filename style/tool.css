@@ -16,16 +16,16 @@ main {
 #map-button {
     position: absolute;
     bottom: 120px; /* Distance from the bottom of the map */
-    right: 20px; /* Distance from the right of the map */
+    right: 100px; /* Distance from the right of the map */
     z-index: 1000; /* Ensure it stays on top of the map */
     cursor: pointer;
     background-color: transparent;
-    width: 200px; /* Adjust the size of the button */
+    width: 280px; /* Adjust the size of the button */
     height: 200px;
 
     background-color: rgb(188, 71, 73); /* Remove the black background */
     font-family: 'Arya', sans-serif;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: bold;
     color: rgb(255, 255, 255); /* Set the text color to black */
     height: 60px; /* Set a fixed height */
