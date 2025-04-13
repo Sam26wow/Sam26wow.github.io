@@ -57,7 +57,7 @@ nav {
 .circle {
     width: 60px; /* Match the button height */
     height: 60px; /* Match the button height */
-    border: 2px solid black; /* Add a black border */
+    border: 2px solid rgb(255, 255, 255); /* Add a black border */
     border-radius: 50%; /* Make it a perfect circle */
     background-color: transparent; /* Make the inside transparent */
     display: inline-block; /* Ensure it behaves like an inline element */
@@ -66,11 +66,11 @@ nav {
 
 nav a {
     background-color: transparent; /* Remove the black background */
-    border: 2px solid black; /* Add a black border */
+    border: 2px solid rgb(255, 255, 255); /* Add a black border */
     font-family: 'Arya', sans-serif;
     font-size: 24px;
     font-weight: bold;
-    color: black; /* Set the text color to black */
+    color: rgb(255, 255, 255); /* Set the text color to black */
     height: 60px; /* Set a fixed height */
     line-height: 60px; /* Vertically center the text */
     border-radius: 30px; /* Make the corners fully rounded */
