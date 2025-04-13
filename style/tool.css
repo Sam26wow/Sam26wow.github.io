@@ -1,35 +1,57 @@
-
 main {
     display: contents;
     width: 100%;
     height: 100%; /* Set the height to match the gray area */
 }
 
-header {
-    position: fixed; /* Ensure the header stays at the top of the page */
-    z-index: 1100; /* Higher z-index to ensure it stays above the sidebar */
-    background-color: #f4f4f4; /* Set your desired background color */
-    height: 60px; /* Set the height of the header */
-    width: 100%; /* Ensure it spans the full width */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
-}
-
 #map {
     width: 100%;
-    height: calc(100% - 60px); /* Adjust the height to account for the header height */
+    height: 100%;
     background-color: #ffffff; /* Ensure the background matches the gray area */
-    position: absolute; /* Ensure the map stays in place */
-    top: 60px; /* Push the map down to avoid overlapping the header */
+    position: relative; /* Ensure the map stays in place */
     z-index: 1000; /* Lower z-index than the header */
     overflow: hidden; /* Prevent scrolling */
 }
 
+#map-button {
+    position: absolute;
+    bottom: 120px; /* Distance from the bottom of the map */
+    right: 20px; /* Distance from the right of the map */
+    z-index: 1000; /* Ensure it stays on top of the map */
+    cursor: pointer;
+    background-color: transparent;
+    width: 200px; /* Adjust the size of the button */
+    height: 200px;
+
+    background-color: transparent; /* Remove the black background */
+    border: 2px solid black; /* Add a black border */
+    font-family: 'Arya', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black; /* Set the text color to black */
+    height: 60px; /* Set a fixed height */
+    line-height: 60px; /* Vertically center the text */
+    border-radius: 30px; /* Make the corners fully rounded */
+    padding: 0 20px; /* Add horizontal padding */
+    display: inline-block; /* Ensure it behaves like a box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for depth */
+    text-decoration: none; /* Remove underline from links */
+    text-align: center;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+#map-button:hover {
+    background-color: #444; /* Slightly darker background on hover */
+    color: white; /* Change text color on hover */
+}
+
+
 #sidebar {
     display: none; /* Hide the sidebar by default */
-    height: calc(100% - 120px); /* Subtract the combined height of the header (60px) and footer (60px) */
+    height: calc(100% - 140px); /* Subtract the exact height of the header (60px) */
     width: 25%; /* Adjust the width as needed */
     position: fixed; /* Position the sidebar relative to the viewport */
-    top: 60px; /* Ensure it starts below the header */
+    top: 70px; /* Adjust this value to match the exact height of the header */
     left: 0; /* Sidebar will appear on the left side of the map */
     overflow-y: auto;
     background-color: white;

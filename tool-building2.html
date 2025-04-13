@@ -66,18 +66,16 @@
                 const map = L.map('map').setView([57.984808, 140.976563], 3); // Adjust the center and zoom level as needed
                 
                 // Add the image overlay
-                const imageUrl = 'assets/images/sw.png'; // Path to your image
+                const imageUrl = 'assets/images/SW_FINAL.png'; // Path to your image
 
                 // Adjust the bounds to make the image larger
                const imageBounds = [[0, 0], [300, 300]]; // Matches the gray area's dimensions
 
                 L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
-                // Fit the map to the new image bounds
-
-              //  map.on('click', function(e) {
-              //      alert("You clicked the map at " + e.latlng);
-              //  });
+                map.on('click', function(e) {
+                    alert("You clicked the map at " + e.latlng);
+                });
 
                 locations.forEach(location => {
                     const { latitude, longitude, isPolygon } = location.locationCenter;
