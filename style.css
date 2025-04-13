@@ -54,21 +54,23 @@ nav {
 }
 
 nav a {
+    background-color: black; /* Set the background color to black */
     font-family: 'Arya', sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: white;
-    text-decoration: none;
-    padding: 5px 10px;
-    border: 2px solid white;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    background-color: #386641;
-    z-index: 1000;
+    height: 60px; /* Set a fixed height */
+    line-height: 60px; /* Vertically center the text */
+    border-radius: 30px; /* Make the corners fully rounded */
+    padding: 0 20px; /* Add horizontal padding */
+    display: inline-block; /* Ensure it behaves like a box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for depth */
+    text-decoration: none; /* Remove underline from links */
+    text-align: center;
 }
 nav a:hover {
-    background-color: white;
-    color: #222;
+    background-color: #444; /* Slightly lighter black for hover effect */
+    color: white;
 }
 
 /* Main Content Area */
