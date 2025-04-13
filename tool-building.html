@@ -73,12 +73,6 @@
 
                 L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
-                // Fit the map to the new image bounds
-
-                //map.on('click', function(e) {
-                //  alert("You clicked the map at " + e.latlng);
-                //});
-
                 locations.forEach(location => {
                     const { latitude, longitude, isPolygon } = location.locationCenter;
                     const { name, description, imageDescription, urlDescription, polygonCoords } = location;

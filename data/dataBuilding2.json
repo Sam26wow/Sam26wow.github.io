@@ -12,7 +12,7 @@
                 [78.098296, 149.414063]
             ],
             "sidebar": {
-                "title": "Wall-Integrated Nesting Boxes",
+                "title": "point 1",
                 "image": "assets/images/strat wren.png",              
                 "scale": "Scale 3 - Detail",  
                 "ecosystemFunction": "Ecosystem Function - Primary consumer",
@@ -31,13 +31,13 @@
                 "longitude": 108.457031
             },
             "polygonCoords": [
-                [76.100796, 104.765625],
+                [76.100796, 102.765625],
                 [76.184995, 114.433594],
-                [74.354828, 113.90625],
+                [74.354828, 114.90625],
                 [74.496413, 102.832031]
             ],
             "sidebar": {
-                "title": "Wall-Integrated Nesting Boxes",
+                "title": "point 2",
                 "image": "assets/images/strat wren.png",              
                 "scale": "Scale 3 - Detail",  
                 "ecosystemFunction": "Ecosystem Function - Primary consumer",
@@ -49,6 +49,106 @@
                 "projectDescription": "The world’s first project which is based on the concept of Animal-Aided Design. It combines the needs and requirements of humans and animals in urban planning and promotes their coexistence in the city. It integrates Animal-Aided Design (AAD) to create urban spaces that support coexistence between humans and wildlife. Located in the city, it incorporates ecological elements into residential and surrounding spaces to meet the habitat needs of specific animal species.",
                 "projectUrlDescription": "https://animal-aided-design.de/en/portfolio-items/animal-aided-design-in-the-living-environment-a-project-from-munich/"               
             }
-        }  
+        },
+        {
+            "locationCenter": {
+                "latitude": 67.135829,
+                "longitude": 204.433594
+            },
+            "polygonCoords": [
+                [69.162558, 199.6875],
+                [69.162558, 211.289063],
+                [64.54844, 211.289063],
+                [64.54844, 199.6875]
+            ],
+            "sidebar": {
+                "title": "point 3",
+                "image": "assets/images/strat wren.png",              
+                "scale": "Scale 3 - Detail",  
+                "ecosystemFunction": "Ecosystem Function - Primary consumer",
+                "description": "On specific walls, nesting boxes are built into the wall itself, allowing for better insulation and protection from predators. Specificaly made for smaller species of birds like wrens.",
+                "functionReplacement": "Function Replacement - Replaces natural cavities for birds, providing nesting spaces that support primary consumers by enabling successful reproduction in urban areas. These boxes help maintain bird populations that are integral to pest control and seed dispersal", 
+                "sourceProject": "<br>Source project - Brandtstrasse<br>", 
+                "projectImage1": "assets/images/BrandtStrasse1.PNG",    
+                "projectImage2": "assets/images/BrandtStrasse2.PNG",    
+                "projectDescription": "The world’s first project which is based on the concept of Animal-Aided Design. It combines the needs and requirements of humans and animals in urban planning and promotes their coexistence in the city. It integrates Animal-Aided Design (AAD) to create urban spaces that support coexistence between humans and wildlife. Located in the city, it incorporates ecological elements into residential and surrounding spaces to meet the habitat needs of specific animal species.",
+                "projectUrlDescription": "https://animal-aided-design.de/en/portfolio-items/animal-aided-design-in-the-living-environment-a-project-from-munich/"               
+            }
+        },
+        {
+            "locationCenter": {
+                "latitude": 65.440002,
+                "longitude": 54.492188
+            },
+            "polygonCoords": [
+                [68.073305, 46.582031],
+                [68.073305, 61.699219],
+                [62.512318, 61.699219],
+                [62.512318, 46.582031]
+            ],
+            "sidebar": {
+                "title": "point 4",
+                "image": "assets/images/strat wren.png",              
+                "scale": "Scale 3 - Detail",  
+                "ecosystemFunction": "Ecosystem Function - Primary consumer",
+                "description": "On specific walls, nesting boxes are built into the wall itself, allowing for better insulation and protection from predators. Specificaly made for smaller species of birds like wrens.",
+                "functionReplacement": "Function Replacement - Replaces natural cavities for birds, providing nesting spaces that support primary consumers by enabling successful reproduction in urban areas. These boxes help maintain bird populations that are integral to pest control and seed dispersal", 
+                "sourceProject": "<br>Source project - Brandtstrasse<br>", 
+                "projectImage1": "assets/images/BrandtStrasse1.PNG",    
+                "projectImage2": "assets/images/BrandtStrasse2.PNG",    
+                "projectDescription": "The world’s first project which is based on the concept of Animal-Aided Design. It combines the needs and requirements of humans and animals in urban planning and promotes their coexistence in the city. It integrates Animal-Aided Design (AAD) to create urban spaces that support coexistence between humans and wildlife. Located in the city, it incorporates ecological elements into residential and surrounding spaces to meet the habitat needs of specific animal species.",
+                "projectUrlDescription": "https://animal-aided-design.de/en/portfolio-items/animal-aided-design-in-the-living-environment-a-project-from-munich/"               
+            }
+        },
+        {
+            "locationCenter": {
+                "latitude": 43.961191,
+                "longitude": 62.929688
+            },
+            "polygonCoords": [
+                [48.107431, 58.535156],
+                [46.920255, 69.257813],
+                [39.909736, 69.609375],
+                [42.293564, 56.953125]
+            ],
+            "sidebar": {
+                "title": "point 5",
+                "image": "assets/images/strat wren.png",              
+                "scale": "Scale 3 - Detail",  
+                "ecosystemFunction": "Ecosystem Function - Primary consumer",
+                "description": "On specific walls, nesting boxes are built into the wall itself, allowing for better insulation and protection from predators. Specificaly made for smaller species of birds like wrens.",
+                "functionReplacement": "Function Replacement - Replaces natural cavities for birds, providing nesting spaces that support primary consumers by enabling successful reproduction in urban areas. These boxes help maintain bird populations that are integral to pest control and seed dispersal", 
+                "sourceProject": "<br>Source project - Brandtstrasse<br>", 
+                "projectImage1": "assets/images/BrandtStrasse1.PNG",    
+                "projectImage2": "assets/images/BrandtStrasse2.PNG",    
+                "projectDescription": "The world’s first project which is based on the concept of Animal-Aided Design. It combines the needs and requirements of humans and animals in urban planning and promotes their coexistence in the city. It integrates Animal-Aided Design (AAD) to create urban spaces that support coexistence between humans and wildlife. Located in the city, it incorporates ecological elements into residential and surrounding spaces to meet the habitat needs of specific animal species.",
+                "projectUrlDescription": "https://animal-aided-design.de/en/portfolio-items/animal-aided-design-in-the-living-environment-a-project-from-munich/"               
+            }
+        },
+        {
+            "locationCenter": {
+                "latitude": 28.613459,
+                "longitude": 114.609375
+            },
+            "polygonCoords": [
+                [31.802893, 111.796875],
+                [31.503629, 119.179688],
+                [24.527135, 119.003906],
+                [25.799891, 110.039063]
+            ],
+            "sidebar": {
+                "title": "point 6",
+                "image": "assets/images/strat wren.png",              
+                "scale": "Scale 3 - Detail",  
+                "ecosystemFunction": "Ecosystem Function - Primary consumer",
+                "description": "On specific walls, nesting boxes are built into the wall itself, allowing for better insulation and protection from predators. Specificaly made for smaller species of birds like wrens.",
+                "functionReplacement": "Function Replacement - Replaces natural cavities for birds, providing nesting spaces that support primary consumers by enabling successful reproduction in urban areas. These boxes help maintain bird populations that are integral to pest control and seed dispersal", 
+                "sourceProject": "<br>Source project - Brandtstrasse<br>", 
+                "projectImage1": "assets/images/BrandtStrasse1.PNG",    
+                "projectImage2": "assets/images/BrandtStrasse2.PNG",    
+                "projectDescription": "The world’s first project which is based on the concept of Animal-Aided Design. It combines the needs and requirements of humans and animals in urban planning and promotes their coexistence in the city. It integrates Animal-Aided Design (AAD) to create urban spaces that support coexistence between humans and wildlife. Located in the city, it incorporates ecological elements into residential and surrounding spaces to meet the habitat needs of specific animal species.",
+                "projectUrlDescription": "https://animal-aided-design.de/en/portfolio-items/animal-aided-design-in-the-living-environment-a-project-from-munich/"               
+            }
+        }
     ]
 }

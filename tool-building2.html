@@ -56,8 +56,7 @@
         loadHTML('header.html', 'header-placeholder');
         loadHTML('footer.html', 'footer-placeholder');
 
-
-        fetch('data/dataBuilding.json')
+        fetch('data/dataBuilding2.json')
         .then(response => response.json())
         .then(data => {
                 const locations = data.data;
@@ -72,10 +71,6 @@
                const imageBounds = [[0, 0], [300, 300]]; // Matches the gray area's dimensions
 
                 L.imageOverlay(imageUrl, imageBounds).addTo(map);
-
-                map.on('click', function(e) {
-                    alert("You clicked the map at " + e.latlng);
-                });
 
                 locations.forEach(location => {
                     const { latitude, longitude, isPolygon } = location.locationCenter;
