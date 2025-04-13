@@ -38,6 +38,7 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 1000; /* Ensure the sidebar stays on top of the map */
     text-align: left;
+    border-radius: 10px;
 }
 
 #sidebar h2 {
