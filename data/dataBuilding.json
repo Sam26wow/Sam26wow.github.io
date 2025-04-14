@@ -12,17 +12,21 @@
                 [76.880775, 159.960938]
             ],
             "sidebar": {
-                "title": "point 1",
-                "image": "assets/images/strat wren.png",              
-                "scale": "Scale 3 - Detail",  
-                "ecosystemFunction": "Ecosystem Function - Primary consumer",
-                "description": "On specific walls, nesting boxes are built into the wall itself, allowing for better insulation and protection from predators. Specificaly made for smaller species of birds like wrens.",
-                "functionReplacement": "Function Replacement - Replaces natural cavities for birds, providing nesting spaces that support primary consumers by enabling successful reproduction in urban areas. These boxes help maintain bird populations that are integral to pest control and seed dispersal", 
-                "sourceProject": "<br>Source project - Brandtstrasse<br>", 
-                "projectImage1": "assets/images/BrandtStrasse1.PNG",    
-                "projectImage2": "assets/images/BrandtStrasse2.PNG",    
-                "projectDescription": "The world’s first project which is based on the concept of Animal-Aided Design. It combines the needs and requirements of humans and animals in urban planning and promotes their coexistence in the city. It integrates Animal-Aided Design (AAD) to create urban spaces that support coexistence between humans and wildlife. Located in the city, it incorporates ecological elements into residential and surrounding spaces to meet the habitat needs of specific animal species.",
-                "projectUrlDescription": "https://animal-aided-design.de/en/portfolio-items/animal-aided-design-in-the-living-environment-a-project-from-munich/"               
+                "image": "assets/images/ne-01-a.png",
+                "title1": "Northern Flying squirrel (Glaucomys sabrinus)",
+                "specification": "SPECIFICATIONS",  
+                "info1": "SQUIRREL CAVITY: 4-5 m round entrance, 25cm deep internal space",
+                "info2": "OTHER: Ledge for arrival",
+                "title2": "Haircap moss (Polytrichum commune)",
+                "specification2": "SPECIFICATIONS",   
+                "info3": "shade, high humidity, and stable surfaces, such as recessed wall tiles or shaded ledges that collect dew or runoff",
+                "info4": "",
+                "cohabitation": "COHABITATION",
+                "info5": "Flying squirrels can cohabit with moss integrated near its nest. The moss helps regulate humidity and supports the cool microclimate they prefer",
+                "info6": "Avoid pairing with diurnal cavity-nesting birds or placing predator species nearby",
+                "management": "MANAGEMENT",
+                "info7": "Clean Once every 2–3 years (max)",
+                "info8": ""
             }
         },
         {
@@ -37,17 +41,21 @@
                 [73.478485, 77.519531]
             ],
             "sidebar": {
-                "title": "point 2",
-                "image": "assets/images/strat wren.png",              
-                "scale": "Scale 3 - Detail",  
-                "ecosystemFunction": "Ecosystem Function - Primary consumer",
-                "description": "On specific walls, nesting boxes are built into the wall itself, allowing for better insulation and protection from predators. Specificaly made for smaller species of birds like wrens.",
-                "functionReplacement": "Function Replacement - Replaces natural cavities for birds, providing nesting spaces that support primary consumers by enabling successful reproduction in urban areas. These boxes help maintain bird populations that are integral to pest control and seed dispersal", 
-                "sourceProject": "<br>Source project - Brandtstrasse<br>", 
-                "projectImage1": "assets/images/BrandtStrasse1.PNG",    
-                "projectImage2": "assets/images/BrandtStrasse2.PNG",    
-                "projectDescription": "The world’s first project which is based on the concept of Animal-Aided Design. It combines the needs and requirements of humans and animals in urban planning and promotes their coexistence in the city. It integrates Animal-Aided Design (AAD) to create urban spaces that support coexistence between humans and wildlife. Located in the city, it incorporates ecological elements into residential and surrounding spaces to meet the habitat needs of specific animal species.",
-                "projectUrlDescription": "https://animal-aided-design.de/en/portfolio-items/animal-aided-design-in-the-living-environment-a-project-from-munich/"               
+                "image": "assets/images/ne-02-a.png",
+                "title1": "North American Porcupine (Erethizon dorsatum)",
+                "specification": "SPECIFICATIONS",  
+                "info1": "NESTING DRAWER: Ground-level drawer or chamber, minimum 40 cm x 40 cm x 60 cm internal space, insulated, dark, and protected from direct wind",
+                "info2": "OTHER: Slight overhang or roof to shield entrance, access ramp optional",
+                "title2": "Virginia Creeper (Parthenocissus quinquefolia)", 
+                "specification2": "SPECIFICATIONS",   
+                "info3": "Full to partial sun, climbs walls or trellises via tendrils, requires rough or textured vertical surface to attach, drought-tolerant once established",
+                "info4": "",
+                "cohabitation": "COHABITATION",
+                "info5": "Porcupines can cohabit with Virginia Creeper growing above or around the nesting structure. The plant provides summer shade and aesthetic cover without interfering with access",
+                "info6": "Avoid species that nest at ground level nearby, as porcupines are solitary and may be defensive when disturbed",
+                "management": "MANAGEMENT",
+                "info7": "Clean once a year in late summer if the nest is used continuously",
+                "info8": "Prune Virginia Creeper annually in early spring to prevent overgrowth and allow air circulation"
             }
         },
         {
@@ -62,17 +70,17 @@
                 [71.130988, 101.25]
             ],
             "sidebar": {
-                "title": "point 3",
-                "image": "assets/images/strat wren.png",              
-                "scale": "Scale 3 - Detail",  
-                "ecosystemFunction": "Ecosystem Function - Primary consumer",
-                "description": "On specific walls, nesting boxes are built into the wall itself, allowing for better insulation and protection from predators. Specificaly made for smaller species of birds like wrens.",
-                "functionReplacement": "Function Replacement - Replaces natural cavities for birds, providing nesting spaces that support primary consumers by enabling successful reproduction in urban areas. These boxes help maintain bird populations that are integral to pest control and seed dispersal", 
-                "sourceProject": "<br>Source project - Brandtstrasse<br>", 
-                "projectImage1": "assets/images/BrandtStrasse1.PNG",    
-                "projectImage2": "assets/images/BrandtStrasse2.PNG",    
-                "projectDescription": "The world’s first project which is based on the concept of Animal-Aided Design. It combines the needs and requirements of humans and animals in urban planning and promotes their coexistence in the city. It integrates Animal-Aided Design (AAD) to create urban spaces that support coexistence between humans and wildlife. Located in the city, it incorporates ecological elements into residential and surrounding spaces to meet the habitat needs of specific animal species.",
-                "projectUrlDescription": "https://animal-aided-design.de/en/portfolio-items/animal-aided-design-in-the-living-environment-a-project-from-munich/"               
+                "image": "assets/images/ne-03-a-01.png",
+                "title1": "Chimney Swift (Chaetura pelagica)",
+                "specification": "SPECIFICATIONS",  
+                "info1": "WALL CAVITY: 20–25 cm deep vertical cavity with rough or textured interior surface for clinging",
+                "info2": "OTHER: Entrance near the top of the structure, minimum 1.2 m of uninterrupted vertical interior height, dark and sheltered",
+                "cohabitation": "COHABITATION",
+                "info5": "Chimney swifts live together in colonies and are social outside of the breeding season. Nesting cavities must be designed to allow multiple pairs to occupy separate vertical surfaces within the same structure.",
+                "info6": "Each pair nests separately, but will roost communally, so vertical nest zones must be spaced at least 30–50 cm apart",
+                "management": "MANAGEMENT",
+                "info7": "Clean only every 3–5 years, in late fall after migration (October–November)",
+                "info8": "Do not disturb during nesting season (May–August)"
             }
         },
         {
@@ -87,17 +95,21 @@
                 [67.474922, 92.8125]
             ],
             "sidebar": {
-                "title": "point 4",
-                "image": "assets/images/strat wren.png",              
-                "scale": "Scale 3 - Detail",  
-                "ecosystemFunction": "Ecosystem Function - Primary consumer",
-                "description": "On specific walls, nesting boxes are built into the wall itself, allowing for better insulation and protection from predators. Specificaly made for smaller species of birds like wrens.",
-                "functionReplacement": "Function Replacement - Replaces natural cavities for birds, providing nesting spaces that support primary consumers by enabling successful reproduction in urban areas. These boxes help maintain bird populations that are integral to pest control and seed dispersal", 
-                "sourceProject": "<br>Source project - Brandtstrasse<br>", 
-                "projectImage1": "assets/images/BrandtStrasse1.PNG",    
-                "projectImage2": "assets/images/BrandtStrasse2.PNG",    
-                "projectDescription": "The world’s first project which is based on the concept of Animal-Aided Design. It combines the needs and requirements of humans and animals in urban planning and promotes their coexistence in the city. It integrates Animal-Aided Design (AAD) to create urban spaces that support coexistence between humans and wildlife. Located in the city, it incorporates ecological elements into residential and surrounding spaces to meet the habitat needs of specific animal species.",
-                "projectUrlDescription": "https://animal-aided-design.de/en/portfolio-items/animal-aided-design-in-the-living-environment-a-project-from-munich/"               
+                "image": "assets/images/ne-04-a-01.png",
+                "title1": " Common Swift (Apus apus)",
+                "specification": "SPECIFICATIONS",  
+                "info1": "NESTING CAVITY: Oval entrance hole approximately 6.5 cm wide x 3 cm high, internal depth of 30–35 cm",
+                "info2": "OTHER: Needs unobstructed flight path; place cavities high on wall, minimum 5–6 meters above ground",
+                "title2": "Mixed Passerines (e.g., House Wren, Tree Swallow, Black-capped Chickadee)", 
+                "specification2": "SPECIFICATIONS",   
+                "info3": "NESTING CAVITY: Round hole between 2.8–3.5 cm diameter depending on species, internal depth 12–20 cm",
+                "info4": "OTHER: Distribute cavities in scattered pattern with spacing of at least 30 cm between openings",
+                "cohabitation": "COHABITATION",
+                "info5": "Swifts and small passerine birds can cohabit the same façade as they do not compete directly due to differing cavity shapes",
+                "info6": "",
+                "management": "MANAGEMENT",
+                "info7": "Clean annually in late fall after breeding and migration cycles",
+                "info8": "Ensure all entrances remain clear and cavity interiors remain dry"
             }
         },
         {
@@ -112,17 +124,21 @@
                 [60.844911, 86.308594]
             ],
             "sidebar": {
-                "title": "point 5",
-                "image": "assets/images/strat wren.png",              
-                "scale": "Scale 3 - Detail",  
-                "ecosystemFunction": "Ecosystem Function - Primary consumer",
-                "description": "On specific walls, nesting boxes are built into the wall itself, allowing for better insulation and protection from predators. Specificaly made for smaller species of birds like wrens.",
-                "functionReplacement": "Function Replacement - Replaces natural cavities for birds, providing nesting spaces that support primary consumers by enabling successful reproduction in urban areas. These boxes help maintain bird populations that are integral to pest control and seed dispersal", 
-                "sourceProject": "<br>Source project - Brandtstrasse<br>", 
-                "projectImage1": "assets/images/BrandtStrasse1.PNG",    
-                "projectImage2": "assets/images/BrandtStrasse2.PNG",    
-                "projectDescription": "The world’s first project which is based on the concept of Animal-Aided Design. It combines the needs and requirements of humans and animals in urban planning and promotes their coexistence in the city. It integrates Animal-Aided Design (AAD) to create urban spaces that support coexistence between humans and wildlife. Located in the city, it incorporates ecological elements into residential and surrounding spaces to meet the habitat needs of specific animal species.",
-                "projectUrlDescription": "https://animal-aided-design.de/en/portfolio-items/animal-aided-design-in-the-living-environment-a-project-from-munich/"               
+                "image": "assets/images/ne-05-a-01.png",
+                "title1": "North American Porcupine (Erethizon dorsatum)",
+                "specification": "SPECIFICATIONS",  
+                "info1": "NESTING DRAWER: Ground-level drawer or chamber, minimum 40 cm x 40 cm x 60 cm internal space, insulated, dark, and protected from direct wind",
+                "info2": "OTHER: Slight overhang or roof to shield entrance, access ramp optional",
+                "title2": "Virginia Creeper (Parthenocissus quinquefolia)", 
+                "specification2": "SPECIFICATIONS",   
+                "info3": "Full to partial sun, climbs walls or trellises via tendrils, requires rough or textured vertical surface to attach, drought-tolerant once established",
+                "info4": "",
+                "cohabitation": "COHABITATION",
+                "info5": "Porcupines can cohabit with Virginia Creeper growing above or around the nesting structure. The plant provides summer shade and aesthetic cover without interfering with access",
+                "info6": "Avoid species that nest at ground level nearby, as porcupines are solitary and may be defensive when disturbed",
+                "management": "MANAGEMENT",
+                "info7": "Clean once a year in late summer if the nest is used continuously",
+                "info8": "Prune Virginia Creeper annually in early spring to prevent overgrowth and allow air circulation"
             }
         },
         {
@@ -137,17 +153,21 @@
                 [58.263287, 113.90625]
             ],
             "sidebar": {
-                "title": "point 6",
-                "image": "assets/images/strat wren.png",              
-                "scale": "Scale 3 - Detail",  
-                "ecosystemFunction": "Ecosystem Function - Primary consumer",
-                "description": "On specific walls, nesting boxes are built into the wall itself, allowing for better insulation and protection from predators. Specificaly made for smaller species of birds like wrens.",
-                "functionReplacement": "Function Replacement - Replaces natural cavities for birds, providing nesting spaces that support primary consumers by enabling successful reproduction in urban areas. These boxes help maintain bird populations that are integral to pest control and seed dispersal", 
-                "sourceProject": "<br>Source project - Brandtstrasse<br>", 
-                "projectImage1": "assets/images/BrandtStrasse1.PNG",    
-                "projectImage2": "assets/images/BrandtStrasse2.PNG",    
-                "projectDescription": "The world’s first project which is based on the concept of Animal-Aided Design. It combines the needs and requirements of humans and animals in urban planning and promotes their coexistence in the city. It integrates Animal-Aided Design (AAD) to create urban spaces that support coexistence between humans and wildlife. Located in the city, it incorporates ecological elements into residential and surrounding spaces to meet the habitat needs of specific animal species.",
-                "projectUrlDescription": "https://animal-aided-design.de/en/portfolio-items/animal-aided-design-in-the-living-environment-a-project-from-munich/"               
+                "image": "assets/images/ne-06-a-01.png",
+                "title1": "Virginia Creeper (Parthenocissus quinquefolia)",
+                "specification": "SPECIFICATIONS",  
+                "info1": "Climbs via tendrils with adhesive pads; thrives in full to partial sun",
+                "info2": "Requires textured or perforated surfaces to attach; tolerant of a range of soils and drought once established",
+                "title2": "", 
+                "specification2": "",   
+                "info3": "",
+                "info4": "",
+                "cohabitation": "COHABITATION",
+                "info5": "Virginia Creeper can grow independently, but its dense foliage can later support invertebrates, pollinators, and shelter for small birds",
+                "info6": "Can be later combined with perching or cavity-nesting birds nearby, or ground-layer species if vines descend to lower levels",
+                "management": "MANAGEMENT",
+                "info7": "Prune once a year in early spring to control spread and avoid blocking operability of the window",
+                "info8": "Ensure tendrils do not enter interior spaces or window joints"
             }
         },
         {
@@ -162,17 +182,21 @@
                 [53.748711, 150.117188]
             ],
             "sidebar": {
-                "title": "point 7",
-                "image": "assets/images/strat wren.png",              
-                "scale": "Scale 3 - Detail",  
-                "ecosystemFunction": "Ecosystem Function - Primary consumer",
-                "description": "On specific walls, nesting boxes are built into the wall itself, allowing for better insulation and protection from predators. Specificaly made for smaller species of birds like wrens.",
-                "functionReplacement": "Function Replacement - Replaces natural cavities for birds, providing nesting spaces that support primary consumers by enabling successful reproduction in urban areas. These boxes help maintain bird populations that are integral to pest control and seed dispersal", 
-                "sourceProject": "<br>Source project - Brandtstrasse<br>", 
-                "projectImage1": "assets/images/BrandtStrasse1.PNG",    
-                "projectImage2": "assets/images/BrandtStrasse2.PNG",    
-                "projectDescription": "The world’s first project which is based on the concept of Animal-Aided Design. It combines the needs and requirements of humans and animals in urban planning and promotes their coexistence in the city. It integrates Animal-Aided Design (AAD) to create urban spaces that support coexistence between humans and wildlife. Located in the city, it incorporates ecological elements into residential and surrounding spaces to meet the habitat needs of specific animal species.",
-                "projectUrlDescription": "https://animal-aided-design.de/en/portfolio-items/animal-aided-design-in-the-living-environment-a-project-from-munich/"               
+                "image": "assets/images/ne-07-a-01.png",
+                "title1": "Virginia Creeper (Parthenocissus quinquefolia)",
+                "specification": "SPECIFICATIONS",  
+                "info1": "Tolerates full to partial shade, climbs via tendrils with adhesive pads",
+                "info2": "Requires textured or perforated vertical surface for attachment; drought-tolerant once established",
+                "title2": "", 
+                "specification2": "",   
+                "info3": "",
+                "info4": "",
+                "cohabitation": "COHABITATION",
+                "info5": "Virginia Creeper can grow independently on shaded north façades. Its foliage provides vertical cover, moisture retention, and microhabitat structure, even in low-light conditions",
+                "info6": "",
+                "management": "MANAGEMENT",
+                "info7": "Prune once a year in early spring to manage spread and maintain ventilation between vine and wall",
+                "info8": ""
             }
         },
         {
@@ -187,17 +211,30 @@
                 [37.857507, 184.746094]
             ],
             "sidebar": {
-                "title": "point 8",
-                "image": "assets/images/strat wren.png",              
-                "scale": "Scale 3 - Detail",  
-                "ecosystemFunction": "Ecosystem Function - Primary consumer",
-                "description": "On specific walls, nesting boxes are built into the wall itself, allowing for better insulation and protection from predators. Specificaly made for smaller species of birds like wrens.",
-                "functionReplacement": "Function Replacement - Replaces natural cavities for birds, providing nesting spaces that support primary consumers by enabling successful reproduction in urban areas. These boxes help maintain bird populations that are integral to pest control and seed dispersal", 
-                "sourceProject": "<br>Source project - Brandtstrasse<br>", 
-                "projectImage1": "assets/images/BrandtStrasse1.PNG",    
-                "projectImage2": "assets/images/BrandtStrasse2.PNG",    
-                "projectDescription": "The world’s first project which is based on the concept of Animal-Aided Design. It combines the needs and requirements of humans and animals in urban planning and promotes their coexistence in the city. It integrates Animal-Aided Design (AAD) to create urban spaces that support coexistence between humans and wildlife. Located in the city, it incorporates ecological elements into residential and surrounding spaces to meet the habitat needs of specific animal species.",
-                "projectUrlDescription": "https://animal-aided-design.de/en/portfolio-items/animal-aided-design-in-the-living-environment-a-project-from-munich/"               
+                "image": "assets/images/ne-08-a-01.png",
+                "title1": "Four-toed Salamander (Hemidactylium scutatum)",
+                "specification": "SPECIFICATIONS",  
+                "info1": "Requires moist, shaded conditions with mossy ground or fern bases for nesting",
+                "info2": "Breeds in shallow seasonal pools and shelters under leaf litter, logs, or plant clumps",
+                "title2": "Wood Frog (Lithobates sylvaticus)", 
+                "specification2": "SPECIFICATIONS",   
+                "info3": "Breeds in vernal pools and shallow wetlands, often in early spring",
+                "info4": "Requires moist, shaded terrestrial zones for adult foraging and summer dormancy",
+                "title3": "Virginia Chainfern (Woodwardia virginica)", 
+                "specification3": "SPECIFICATIONS",   
+                "info9": "Grows in saturated, acidic soils; prefers shade to part-shade",
+                "info10": "Forms loose clumps up to 60 cm tall; stabilizes wet ground and supports moisture retention",
+                "title4": "Sensitive Fern (Onoclea sensibilis)", 
+                "specification4": "SPECIFICATIONS",   
+                "info11": "Moist to wet soils, full to partial shade",
+                "info12": "Spreads by rhizomes, forming dense groundcover around wall base",
+                "cohabitation": "COHABITATION",
+                "info5": "The rain garden provides a moist, cool habitat ideal for both amphibians and ferns",
+                "info6": "Four-toed salamanders and wood frogs utilize fern bases and ground-level cover for shelter, foraging, and egg-laying.",
+                "info13": "The combination of sensitive and chain ferns creates layered structure, holds soil, and retains humidity at the northern wall’s edge.",
+                "management": "MANAGEMENT",
+                "info7": "Remove leaf debris only in early spring to allow overwintering species to emerge",
+                "info8": "Clear sediment buildup annually to maintain infiltration"
             }
         }
     ]

@@ -69,3 +69,14 @@ main {
     padding: 2px; /* Add some padding */
 }
 
+#specifications {
+    margin-left: 20px; /* Add margin to move it to the right */
+    padding-left: 20px; /* Add padding for additional spacing */
+    text-align: left; /* Ensure the text aligns to the left */
+}
+
+ul {
+    padding-left: 40px; /* Move the list dots further to the right */
+    margin-left: 0; /* Optional: Reset margin if needed */
+    list-style-position: outside; /* Ensure the dots are outside the text */
+}

@@ -24,17 +24,36 @@
         </div>
          <div id="sidebar">
             <span id="close-sidebar">X</span>
-            <h2 id="sidebar-title"></h2>
-            <img id="sidebar-image" src="" alt="Sidebar Image" style="width: 100%; height: auto;">
-            <h3 id="sidebar-scale"></h3>
-            <h3 id="sidebar-ecosystem-function"></h3>
-            <p id="sidebar-description"></p>
-            <p id="sidebar-function-replacement"></p>
-            <h2 id="sidebar-source-project"></h2>
-            <img id="sidebar-projectImage1" src="" alt="Projet image 1" style="width: 100%; height: auto;">
-            <img id="sidebar-projectImage2" src="" alt="Projet image 2" style="width: 100%; height: auto;">
-            <p id="sidebar-project-description"></p>
-            <p id="sidebar-project-url"></p>
+            <img id="sidebar-image" src="" alt="Sidebar Image" style="display: none; max-width: 100%; height: auto;">
+            <h2 id="sidebar-title1"></h2>
+            <br>
+            <h3 id="specification"></h3>
+            <ul id="sidebar-title1-list">
+            </ul>
+
+            <h2 id="sidebar-title2"></h2>
+            <h3 id="specification2"></h3>
+            <ul id="sidebar-title2-list">
+            </ul>
+            
+            <h2 id="sidebar-title3"></h2>
+            <h3 id="specification3"></h3>
+            <ul id="sidebar-title3-list">
+            </ul>
+            
+            <h2 id="sidebar-title4"></h2>
+            <h3 id="specification4"></h3>
+            <ul id="sidebar-title4-list">
+            </ul>
+            
+            <br>
+            <h2 id="cohabitation"></h2>
+            <ul id="sidebar-cohabitation-list">
+            </ul>
+            
+            <br>
+            <h2 id="management"></h2>
+            <ul id="sidebar-management-list"></ul>
         </div>
     </main>
     <div id="footer-placeholder"></div>
@@ -92,21 +111,287 @@
                 console.error('fetch error', error);
             });
 
-        function showSidebar(sidebar) {
-            const { title, image, description, scale, ecosystemFunction, functionReplacement, sourceProject, projectDescription, projectImage1, projectImage2, projectUrlDescription } = sidebar;
-            document.getElementById('sidebar-title').innerHTML = title;
-            document.getElementById('sidebar-image').src = image;
-            document.getElementById('sidebar-description').innerHTML = description;
-            document.getElementById('sidebar-scale').innerHTML = scale;
-            document.getElementById('sidebar-ecosystem-function').innerHTML = ecosystemFunction;
-            document.getElementById('sidebar-function-replacement').innerHTML = functionReplacement;
-            document.getElementById('sidebar-source-project').innerHTML = sourceProject;
-            document.getElementById('sidebar-project-description').innerHTML = projectDescription;
-            document.getElementById('sidebar-projectImage1').src = projectImage1;
-            document.getElementById('sidebar-projectImage2').src = projectImage2;
-            document.getElementById('sidebar-project-url').innerHTML = `<a href="${projectUrlDescription}" target="_blank">More Information</a>`;
-            document.getElementById('sidebar').style.display = 'block';
+    function showSidebar(sidebar) {
+        const {
+            image,
+            title1,
+            specification,
+            info1,
+            info2,
+            title2,
+            specification2,
+            info3,
+            info4,
+            title3,
+            specification3,
+            info9,
+            info10,
+            title4,
+            specification4,
+            info11,
+            info12,
+            cohabitation,
+            info5,
+            info6,
+            info13,
+            management,
+            info7,
+            info8
+        } = sidebar;
+
+        // Helper function to set content or hide elements
+        function setContentOrHide(elementId, content) {
+            const element = document.getElementById(elementId);
+            if (content && content.trim() !== "") {
+                element.innerHTML = content;
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
         }
+
+            // Set the image if it exists
+        const sidebarImage = document.getElementById("sidebar-image");
+        if (image && image.trim() !== "") {
+            sidebarImage.src = image;
+            sidebarImage.style.display = "block";
+        } else {
+            sidebarImage.style.display = "none";
+        }
+
+        // Set content for titles and lists
+        setContentOrHide("sidebar-title1", title1);
+        setContentOrHide("specification", specification);
+
+        // Populate info1 and info2 as list items
+        const infoList = document.getElementById("sidebar-title1-list");
+        infoList.innerHTML = ""; // Clear existing list items
+        if (info1 && info1.trim() !== "") {
+            const li1 = document.createElement("li");
+            li1.textContent = info1;
+            infoList.appendChild(li1);
+        }
+        if (info2 && info2.trim() !== "") {
+            const li2 = document.createElement("li");
+            li2.textContent = info2;
+            infoList.appendChild(li2);
+        }
+
+        if (title2 && title2.trim() !== "") {
+    const title2Element = document.getElementById("sidebar-title2");
+
+        // Remove existing <br> elements before adding new ones
+        const previousBr2 = title2Element.previousSibling;
+        if (previousBr2 && previousBr2.nodeName === "BR") {
+            previousBr2.remove();
+        }
+        const nextBr2 = title2Element.nextSibling;
+        if (nextBr2 && nextBr2.nodeName === "BR") {
+            nextBr2.remove();
+        }
+
+        // Add new <br> elements
+        const brBefore2 = document.createElement("br");
+        title2Element.parentNode.insertBefore(brBefore2, title2Element);
+
+        const brAfter2 = document.createElement("br");
+        title2Element.parentNode.insertBefore(brAfter2, title2Element.nextSibling);
+
+        // Set content for title2 and specification2
+        setContentOrHide("sidebar-title2", title2);
+        setContentOrHide("specification2", specification2);
+    } else {
+        // Hide title2 and specification2 if title2 is empty or null
+        document.getElementById("sidebar-title2").style.display = "none";
+        document.getElementById("specification2").style.display = "none";
+
+        // Remove any <br> elements around title2
+        const title2Element = document.getElementById("sidebar-title2");
+        if (title2Element) {
+            const previousBr2 = title2Element.previousSibling;
+            if (previousBr2 && previousBr2.nodeName === "BR") {
+                previousBr2.remove();
+            }
+            const nextBr2 = title2Element.nextSibling;
+            if (nextBr2 && nextBr2.nodeName === "BR") {
+                nextBr2.remove();
+            }
+        }
+    }
+
+        // Set content for titles and lists
+        setContentOrHide("sidebar-title2", title2);
+        setContentOrHide("specification2", specification2);
+
+        // Populate info3 and info4 as list items
+        const infoList2 = document.getElementById("sidebar-title2-list");
+        infoList2.innerHTML = ""; // Clear existing list items
+        if (info3 && info3.trim() !== "") {
+            const li3 = document.createElement("li");
+            li3.textContent = info3;
+            infoList2.appendChild(li3);
+        }
+        if (info4 && info4.trim() !== "") {
+            const li4 = document.createElement("li");
+            li4.textContent = info4;
+            infoList2.appendChild(li4);
+        }
+
+        // Add a <br> before and after title3 if it exists
+        if (title3 && title3.trim() !== "") {
+            const title3Element = document.getElementById("sidebar-title3"); // Get the title3 element
+
+            // Remove existing <br> elements before adding new ones
+            const previousBr3 = title3Element.previousSibling;
+            if (previousBr3 && previousBr3.nodeName === "BR") {
+                previousBr3.remove();
+            }
+            const nextBr3 = title3Element.nextSibling;
+            if (nextBr3 && nextBr3.nodeName === "BR") {
+                nextBr3.remove();
+            }
+
+            // Create and insert <br> before title3
+            const brBefore3 = document.createElement("br");
+            title3Element.parentNode.insertBefore(brBefore3, title3Element);
+
+            // Create and insert <br> after title3
+            const brAfter3 = document.createElement("br");
+            title3Element.parentNode.insertBefore(brAfter3, title3Element.nextSibling);
+        }
+
+        // Set content for title3 and specification3
+        if (title3 && title3.trim() !== "") {
+            setContentOrHide("sidebar-title3", title3);
+            setContentOrHide("specification3", specification3);
+        } else {
+            // Hide specification3 if title3 does not exist
+            document.getElementById("sidebar-title3").style.display = "none";
+            document.getElementById("specification3").style.display = "none";
+
+            const title3Element = document.getElementById("sidebar-title3");
+            if (title3Element) {
+                const previousBr3 = title3Element.previousSibling;
+                if (previousBr3 && previousBr3.nodeName === "BR") {
+                    previousBr3.remove();
+                }
+                const nextBr3 = title3Element.nextSibling;
+                if (nextBr3 && nextBr3.nodeName === "BR") {
+                    nextBr3.remove();
+                }
+            }
+        }
+
+        // Populate info3 and info4 as list items
+        const infoList3 = document.getElementById("sidebar-title3-list");
+        infoList3.innerHTML = ""; // Clear existing list items
+        if (info9 && info9.trim() !== "") {
+            const li9 = document.createElement("li");
+            li9.textContent = info9;
+            infoList3.appendChild(li9);
+        }
+        if (info10 && info10.trim() !== "") {
+            const li10 = document.createElement("li");
+            li10.textContent = info10;
+            infoList3.appendChild(li10);
+        }
+
+        // Add a <br> before and after title4 if it exists
+        if (title4 && title4.trim() !== "") {
+            const title4Element = document.getElementById("sidebar-title4"); // Get the title4 element
+
+            // Remove existing <br> elements before adding new ones
+            const previousBr4 = title4Element.previousSibling;
+            if (previousBr4 && previousBr4.nodeName === "BR") {
+                previousBr4.remove();
+            }
+            const nextBr4 = title4Element.nextSibling;
+            if (nextBr4 && nextBr4.nodeName === "BR") {
+                nextBr4.remove();
+            }
+
+            // Create and insert <br> before title4
+            const brBefore4 = document.createElement("br");
+            title4Element.parentNode.insertBefore(brBefore4, title4Element);
+
+            // Create and insert <br> after title4
+            const brAfter4 = document.createElement("br");
+            title4Element.parentNode.insertBefore(brAfter4, title4Element.nextSibling);
+        }
+
+          // Set content for title3 and specification3
+        if (title4 && title4.trim() !== "") {
+            setContentOrHide("sidebar-title4", title4);
+            setContentOrHide("specification4", specification4);
+        } else {
+            // Hide specification3 if title3 does not exist
+            document.getElementById("sidebar-title4").style.display = "none";
+            document.getElementById("specification4").style.display = "none";
+
+            const title4Element = document.getElementById("sidebar-title4");
+            if (title4Element) {
+                const previousBr4 = title4Element.previousSibling;
+                if (previousBr4 && previousBr4.nodeName === "BR") {
+                    previousBr4.remove();
+                }
+                const nextBr4 = title4Element.nextSibling;
+                if (nextBr4 && nextBr4.nodeName === "BR") {
+                    nextBr4.remove();
+                }
+            }
+        }
+
+        const infoList4 = document.getElementById("sidebar-title4-list");
+        infoList4.innerHTML = ""; // Clear existing list items
+        if (info11 && info11.trim() !== "") {
+            const li11 = document.createElement("li");
+            li11.textContent = info11;
+            infoList4.appendChild(li11);
+        }
+        if (info12 && info12.trim() !== "") {
+            const li12 = document.createElement("li");
+            li12.textContent = info12;
+            infoList4.appendChild(li12);
+        }
+
+        setContentOrHide("cohabitation", cohabitation);
+
+        const infoList5 = document.getElementById("sidebar-cohabitation-list");
+        infoList5.innerHTML = ""; // Clear existing list items
+        if (info5 && info5.trim() !== "") {
+            const li5 = document.createElement("li");
+            li5.textContent = info5;
+            infoList5.appendChild(li5);
+        }
+        if (info6 && info6.trim() !== "") {
+            const li6 = document.createElement("li");
+            li6.textContent = info6;
+            infoList5.appendChild(li6);
+        }
+        if (info13 && info13.trim() !== "") {
+            const li13 = document.createElement("li");
+            li13.textContent = info13;
+            infoList5.appendChild(li13);
+        }
+
+        setContentOrHide("management", management);
+
+        const infoList6 = document.getElementById("sidebar-management-list");
+        infoList6.innerHTML = ""; // Clear existing list items
+        if (info7 && info7.trim() !== "") {
+            const li7 = document.createElement("li");
+            li7.textContent = info7;
+            infoList6.appendChild(li7);
+        }
+        if (info8 && info8.trim() !== "") {
+            const li8 = document.createElement("li");
+            li8.textContent = info8;
+            infoList6.appendChild(li8);
+        }
+
+        // Show the sidebar
+        document.getElementById("sidebar").style.display = "block";
+    } 
 
         document.getElementById('close-sidebar').addEventListener('click', () => {
             document.getElementById('sidebar').style.display = 'none';
